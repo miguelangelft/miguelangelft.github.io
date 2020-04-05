@@ -13,9 +13,9 @@ Education
 =========
 
 **Polytechnic School of Carlos III University of Madrid**, Leganés,
-Madrid (Spain)\
+Madrid (Spain)
 
-* Ph.D. in Multimedia and Communications\
+* Ph.D. in Multimedia and Communications, **September, 2014 - February, 2019**
 
   * Dissertation name: “Hierarchical Representations for Spatio-Temporal
 Visual Attention Modeling and Understanding” [URI:
@@ -27,7 +27,7 @@ Fernando Díaz de María](mailto:fernando.diaz@uc3m.es)
   * Grade obtained: Excellent (Sobresaliente), Cum Laude Distinction,
 International Distinction
 
-* M.S., Multimedia and Communications\
+* M.S., Multimedia and Communications, **September, 2013 - September, 2014**
 
   * Dissertation name: “Automatic Transcription of Lyrics in Monophonic and
 Poliphonic Songs” [URI:
@@ -35,7 +35,7 @@ http://hdl.handle.net/10016/27964](http://hdl.handle.net/10016/27964)
 
   * Overall grade obtained: 9.51 (10-points grading scale).
 
-* B.S., Audiovisual System Engineering\
+* B.S., Audiovisual System Engineering, **September, 2009 - October, 2013**
 
   * Dissertation name: “Automatic system for the identification of monuments
 in photographs” (Document in Spanish)
@@ -45,84 +45,63 @@ in photographs” (Document in Spanish)
   * On 25/11/2013, the Rector decided to grant the student with the Award
 for Excellence in the Academical Course 2012/2013.
 
-**Vienna University of Technology**, Vienna (Austria)\
+**Vienna University of Technology**, Vienna (Austria), **February, 2013 - June, 2013**
 
-* Erasmus Exchange Program\
+* Erasmus Exchange Program
 
 * As part of the Bachelor’s Degree in Audiovisual System Engineering
 
 Honors and Awards
 =================
 
-Teaching Assistant Professor Certification, National Agency for Quality
+* Teaching Assistant Professor Certification, National Agency for Quality
 Assessment and Accreditation of Spain (ANECA), 2019
 
-Grant from the Spanish Ministry of Education’s University Faculty
+* Grant from the Spanish Ministry of Education’s University Faculty
 Training (FPU) programme, 2013
 
-Award for Excellence, Bachelor’s Degree in Audiovisual System
+* Award for Excellence, Bachelor’s Degree in Audiovisual System
 Engineering, Carlos III University of Madrid, Academic Course 2012/2013
 
-Excellence Award, Social Council of Carlos III University of Madrid,
+* Excellence Award, Social Council of Carlos III University of Madrid,
 2012
 
-Excellence Scholarship, Community of Madrid, Academic Course 2009/2010
+* Excellence Scholarship, Community of Madrid, Academic Course 2009/2010
 
-Award for Best University Entrance Records (Third Position), Polytechnic
+* Award for Best University Entrance Records (9.74 (10-points grading scale), Third Position), Polytechnic
 School of Carlos III University of Madrid, 2009
 
 Academic Experience
 ===================
 
-[**Polytechnic School of Carlos III University of Madrid**]{}, Leganés,
-Madrid, Spain\
+**Polytechnic School of Carlos III University of Madrid**, Leganés,
+Madrid (Spain)
 
-Teaching Assistant\
+* Teaching Assistant, **October, 2018 - present**
 
-Multimedia Processing Group, Department of Signal Theory and
+  * Multimedia Processing Group, Department of Signal Theory and
 Communications.
 
-Subjects taught: Digital Image Processing (B.S. in Sound and Image
-Engineering, Summer Semester 2020), Electromagnetic Fields (B.S. in
-Sound and Image Engineering, Summer Semester 2020), Applications of
-Speech, Audio, Image and Video Processing (M.S. in Telecommunications
-Engineering, Winter Semester 2019), Linear Systems (B.S. in
-Telecommunication Technologies, Winter Semester 2019), Digital Image
-Processing (B.S. in Audiovisual System Engineering, Summer Semester
-2019), Multimedia Information Processing (B.S. in Telecommunication
-Technologies, Winter Semester 2018).
+* Research Assistant, **October, 2014 - September, 2018**
 
-Research Assistant\
-
-Multimedia Processing Group, Department of Signal Theory and
+  * Multimedia Processing Group, Department of Signal Theory and
 Communications.
 
-Ph.D. student, doing the Ph.D. thesis “Hierarchical Representations for
+  * Ph.D. student, doing the Ph.D. thesis “Hierarchical Representations for
 Spatio-Temporal Visual Attention Modeling and Understanding”.
 
-Subjects taught: Digital Image Processing (B.S. in Audiovisual System
-Engineering, Summer Semester 2017-2018), Algorithms for Multimedia
-Information Management (B.S. in Audiovisual System Engineering, Summer
-Semester 2017), Multimedia (B.S. in Computer Science and Engineering,
-Winter Semester 2015), Linear Systems (B.S. in Telematics Engineering,
-B.S. in Communication System Engineering, Winter Semester 2015).
+* Scholarship Holder, **September, 2013 - September, 2014**
 
-Scholarship Holder\
-
-Multimedia Processing Group, Department of Signal Theory and
+  * Multimedia Processing Group, Department of Signal Theory and
 Communications.
 
-Scholarship holder, studying Master in Multimedia and Communications.
+  * Scholarship holder, studying Master in Multimedia and Communications.
 
-Subjects taught: Digital Image Processing (B.S. in Audiovisual System
-Engineering, Summer Semester 2014), Multimedia Information Processing
-(B.S. in Telecommunication Technologies, Winter Semester 2013).
+**Purdue University**, West Lafayette, Indiana (United States), **August, 2016 - December, 2016**
 
-[**Purdue University**]{}, West Lafayette, Indiana, United States\
+  * Visiting Research Scholar
 
-Visiting Research Scholar\
-
-Visual Perception Laboratory, Department of Psychological Sciences,
+  * Visual Perception Laboratory, Department of Psychological Sciences,
 under the supervision of [Dr. Zygmunt Pizlo](mailto:zpizlo@uci.edu).
 
 Professional Experience
