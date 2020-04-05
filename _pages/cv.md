@@ -29,12 +29,17 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Computer skills
+  * Languages: Python (+4 years of experience), Matlab (+8 years of experience), C, C++, Java, some use of Unix shell scripts.
+  * Algorithms: Experience programming Deep Learning-based architectures (Keras, Tensorflow libraries) and Bayesian models.
+  * LaTeX and Microsoft productivity tools: Word, Excel, etc.
+  * Operating Systems: Linux/Unix, Mac, Windows. 
+  * Experience with distributed computing in a clustered environment.
+* Foreign languages
+  * English: Complete professional competence.
+  * French: Basic competence.
+  * German: Limited basic competence.
+* Driving licence B
 
 Publications
 ======
@@ -53,7 +58,3 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
