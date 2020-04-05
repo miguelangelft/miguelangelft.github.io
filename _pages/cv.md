@@ -13,7 +13,7 @@ Education
 ======
 * Polytechnic School of Carlos III University of Madrid}, Legan\'es, Madrid (Spain)
   * Ph.D. in Multimedia and Communications \hfill {\bf September, 2014 - February, 2019}
-    * Dissertation name:  ``Hierarchical Representations for Spatio-Temporal Visual Attention Modeling and Understanding'' \href{http://hdl.handle.net/10016/29195}{URI: http://hdl.handle.net/10016/29195} 
+    * Dissertation name:  "Hierarchical Representations for Spatio-Temporal Visual Attention Modeling and Understanding" URI: http://hdl.handle.net/10016/29195
     * Advisors:  \href{mailto:igonzalez@tsc.uc3m.es}{Dr. Iv\'an Gonz\'alez D\'iaz}, \href{mailto:fernando.diaz@uc3m.es}{Dr. Fernando D\'iaz de Mar\'ia}
     * Grade obtained: Excellent (Sobresaliente), Cum Laude Distinction, International Distinction
   * M.S., Multimedia and Communications \hfill {\bf September, 2013 - September, 2014}
