@@ -83,9 +83,9 @@ author:
   name             : "Miguel Ángel Fernández Torres"
   avatar           : "profile.png"
   bio              : "Assistant Professor and Researcher at Universidad Carlos III de Madrid" #"Your biography for the left-hand sidebar"
-  location         : "Leganés, Madrid (Spain)"
+  location         : "Leganés, Madrid"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "matorres@tsc.uc3m.es, migferna@pa.uc3m.es, miguelangel.fernandeztorres@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Miguel_Angel_Fernandez-Torres" # example: "https://www.researchgate.net/profile/yourprofile"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/miguelangelft"
+  linkedin         : "miguelangelft"
   orcid            : "https://orcid.org/0000-0002-0801-199X"
   pinterest        :
   soundcloud       :
