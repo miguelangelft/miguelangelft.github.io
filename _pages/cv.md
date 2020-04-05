@@ -132,12 +132,13 @@ electronic circuits.
 
 Publications
 ============
-
+<!---
 <ul>{% for post in site.publications %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
+!--->
   
-[Journal]{}\
+* Journal
 [**Fernández-Torres, M. Á.**]{}, González-Díaz, I., & Díaz-de-María, F.
 (2019). Probabilistic Topic Model for Context-Driven Visual Attention
 Understanding. Accepted for publication in IEEE Transactions on Circuits
@@ -157,7 +158,7 @@ dermoscopic-structure-based cad system for melanoma diagnosis.
 Multimedia Tools and Applications, 77(10), 12171-12202. [DOI:
 10.1007/s11042-017-4879-3](https://doi.org/10.1007/s11042-017-4879-3)
 
-[International Conferences]{}\
+* International Conferences]
 [**Fernández-Torres, M. Á.**]{}, González-Díaz, I., & Díaz-de-María, F.
 (2016, June). A probabilistic topic approach for context-aware visual
 attention modeling. In 2016 14th International Workshop on Content-Based
@@ -173,11 +174,13 @@ Conference on Image Processing (ICIP) (pp. 2779-2783). IEEE. [DOI:
 
 Talks
 ======
+<!---
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
+---!>
   
-[Local Conferences]{}\
+* Local Conferences
 [Martínez-Cebrián, J. & **Fernández-Torres, M. Á.**]{} (2019, November).
 Context-Based Interpretability for Visual Attention using AI. In Big
 Things Conference 2019 (Oral presentation).
@@ -215,9 +218,39 @@ Peláez-Moreno](mailto:carmen@tsc.uc3m.es).
 
 Teaching
 ======
+<!---
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+---!>
+  
+* Digital Image Processing (B.S. in Sound and Image
+Engineering, Summer Semester 2020)
+* Electromagnetic Fields (B.S. in
+Sound and Image Engineering, Summer Semester 2020)
+* Applications of
+Speech, Audio, Image and Video Processing (M.S. in Telecommunications
+Engineering, Winter Semester 2019)
+* Linear Systems (B.S. in
+Telecommunication Technologies, Winter Semester 2019)
+* Digital Image
+Processing (B.S. in Audiovisual System Engineering, Summer Semester
+2019)
+* Multimedia Information Processing (B.S. in Telecommunication
+Technologies, Winter Semester 2018).
+* Digital Image Processing (B.S. in Audiovisual System
+Engineering, Summer Semester 2017-2018)
+* Algorithms for Multimedia
+Information Management (B.S. in Audiovisual System Engineering, Summer
+Semester 2017)
+* Multimedia (B.S. in Computer Science and Engineering,
+Winter Semester 2015)
+* Linear Systems (B.S. in Telematics Engineering,
+B.S. in Communication System Engineering, Winter Semester 2015).
+* Digital Image Processing (B.S. in Audiovisual System
+Engineering, Summer Semester 2014)
+* Multimedia Information Processing
+(B.S. in Telecommunication Technologies, Winter Semester 2013).
 
 Courses and Certifications
 ==========================
