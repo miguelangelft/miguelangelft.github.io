@@ -9,68 +9,47 @@ redirect_from:
 
 {% include base_path %}
 
-[-1.3in]{} [ <span style="font-variant:small-caps;">[Miguel Ángel
-Fernández Torres ]{}</span> ]{}\
-\
-
-Avda. de la Universidad, 30\
-Leganés\
-28911, Madrid (Spain)\
-Office 4.2.A01
-
-[Phone: ](tel:\myphone)\
-[E-mail: ](mailto:\myemail)\
-[LinkedIn: ](https://www.linkedin.com/in/\myweb)
-
-Sex: Male | Date of birth: 16 August 1991 | Nationality: Spanish
-
-Research Interests
-==================
-
-Computer Vision, Image Processing, Machine Learning, Deep Learning,
-Bayesian models, visual attention modeling, biomedical image processing.
-
 Education
 =========
 
-[**Polytechnic School of Carlos III University of Madrid**]{}, Leganés,
+**Polytechnic School of Carlos III University of Madrid**, Leganés,
 Madrid (Spain)\
 
-Ph.D. in Multimedia and Communications\
+* Ph.D. in Multimedia and Communications\
 
-Dissertation name: “Hierarchical Representations for Spatio-Temporal
+  * Dissertation name: “Hierarchical Representations for Spatio-Temporal
 Visual Attention Modeling and Understanding” [URI:
 http://hdl.handle.net/10016/29195](http://hdl.handle.net/10016/29195)
 
-Advisors: [Dr. Iván González Díaz](mailto:igonzalez@tsc.uc3m.es), [Dr.
+  * Advisors: [Dr. Iván González Díaz](mailto:igonzalez@tsc.uc3m.es), [Dr.
 Fernando Díaz de María](mailto:fernando.diaz@uc3m.es)
 
-Grade obtained: Excellent (Sobresaliente), Cum Laude Distinction,
+  * Grade obtained: Excellent (Sobresaliente), Cum Laude Distinction,
 International Distinction
 
-M.S., Multimedia and Communications\
+* M.S., Multimedia and Communications\
 
-Dissertation name: “Automatic Transcription of Lyrics in Monophonic and
+  * Dissertation name: “Automatic Transcription of Lyrics in Monophonic and
 Poliphonic Songs” [URI:
 http://hdl.handle.net/10016/27964](http://hdl.handle.net/10016/27964)
 
-Overall grade obtained: 9.51 (10-points grading scale).
+  * Overall grade obtained: 9.51 (10-points grading scale).
 
-B.S., Audiovisual System Engineering\
+* B.S., Audiovisual System Engineering\
 
-Dissertation name: “Automatic system for the identification of monuments
+  * Dissertation name: “Automatic system for the identification of monuments
 in photographs” (Document in Spanish)
 
-Overall grade obtained: 8.69 (10-points grading scale).
+  * Overall grade obtained: 8.69 (10-points grading scale).
 
-On 25/11/2013, the Rector decided to grant the student with the Award
+  * On 25/11/2013, the Rector decided to grant the student with the Award
 for Excellence in the Academical Course 2012/2013.
 
-[**Vienna University of Technology**]{}, Vienna (Austria)\
+**Vienna University of Technology**, Vienna (Austria)\
 
-Erasmus Exchange Program\
+* Erasmus Exchange Program\
 
-As part of the Bachelor’s Degree in Audiovisual System Engineering
+* As part of the Bachelor’s Degree in Audiovisual System Engineering
 
 Honors and Awards
 =================
