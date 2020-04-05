@@ -107,32 +107,36 @@ under the supervision of [Dr. Zygmunt Pizlo](mailto:zpizlo@uci.edu).
 Professional Experience
 =======================
 
-[**Polytechnic School of Carlos III University of Madrid**]{}, Leganés,
-Madrid, Spain\
+**Polytechnic School of Carlos III University of Madrid**, Leganés,
+Madrid (Spain)
 
-Informant\
+* Informant, **January, 2012 - February, 2013**
 
-Leganés Service Point.
+  * Leganés Service Point.
 
-Public service.
+  * Public service.
 
-Support in student administration.
+  * Support in student administration.
 
-Employment of the student records database and software for university
+  * Employment of the student records database and software for university
 income.
 
-[**CSIC Institute of Applied Physics**]{}, Madrid, Spain\
+**CSIC Institute of Applied Physics**, Madrid (Spain)
 
-Collaboration Scholarship\
+* Collaboration Scholarship.
 
-Study of the propagation of light in optical fiber.
+* Study of the propagation of light in optical fiber.
 
-Management of laboratory equipment and software, and implementation of
+* Management of laboratory equipment and software, and implementation of
 electronic circuits.
 
 Publications
 ============
 
+<ul>{% for post in site.publications %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+  
 [Journal]{}\
 [**Fernández-Torres, M. Á.**]{}, González-Díaz, I., & Díaz-de-María, F.
 (2019). Probabilistic Topic Model for Context-Driven Visual Attention
@@ -167,6 +171,12 @@ classification using clinical-based features. In 2014 IEEE International
 Conference on Image Processing (ICIP) (pp. 2779-2783). IEEE. [DOI:
 10.1109/ICIP.2014.7025562](https://doi.org/10.1109/ICIP.2014.7025562)
 
+Talks
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+  
 [Local Conferences]{}\
 [Martínez-Cebrián, J. & **Fernández-Torres, M. Á.**]{} (2019, November).
 Context-Based Interpretability for Visual Attention using AI. In Big
@@ -183,81 +193,69 @@ presentation).
 Projects
 ========
 
-Detection of cylindrical or edge milestones for an automatic road
+* Detection of cylindrical or edge milestones for an automatic road
 maintenance system. Funded by ALVAC S.A. Multimedia Processing Group,
 Carlos III University of Madrid, 2018-2020. PRs: [Dr. Fernando Díaz de
 María](mailto:fernando.diaz@uc3m.es), [Dr. Iván González
 Díaz](mailto:igonzalez@tsc.uc3m.es).
 
-Saliency and Attention: rePresentation, Interpretation and EmergeNcy.
+* Saliency and Attention: rePresentation, Interpretation and EmergeNcy.
 Ref: TEC2017-84395-P. Funded by the Spanish Ministry of Economy and
 Business. Multimedia Processing Group, Carlos III University of Madrid,
 2018-2020. PRs: [Dr. Ascensión
 Gallardo-Antolín](mailto:gallardo@tsc.uc3m.es), [Dr. Carmen
 Peláez-Moreno](mailto:carmen@tsc.uc3m.es).
 
-Saliency and Attention: Multimodality, Context-Awareness,
+* Saliency and Attention: Multimodality, Context-Awareness,
 Auto-Adaptation and Bioinspiration. Ref: TEC2014-53390-P. Funded by the
 Spanish Ministry of Economy and Competitiveness. Multimedia Processing
 Group, Carlos III University of Madrid, 2015-2017. PRs: [Dr. Ascensión
 Gallardo-Antolín](mailto:gallardo@tsc.uc3m.es), [Dr. Carmen
 Peláez-Moreno](mailto:carmen@tsc.uc3m.es).
 
-Courses and Certifications
-==========================
-
-Academic Teaching Excellence: English as a Medium of Instruction (EMI),
-British Council, 2019
-
-[International Computer Vision Summer School - Learning to See
-(ICVSS)](http://svg.dmi.unict.it/icvss2015/), Sicily, Italy, 2015.
-
-Teachers’ Development Course, Carlos III University of Madrid, 2014.
-
-English B2 Course, EF International School of English, New York, United
-States, 2010.
-
-Skills
-======
-
-[Computer skills]{}
-
-Languages: Python (+4 years of experience), Matlab (+8 years of
-experience), C, C++, Java, some use of Unix shell scripts.
-
-Algorithms: Experience programming Deep Learning-based architectures
-(Keras, Tensorflow libraries) and Bayesian models.
-
-LaTeX and Microsoft productivity tools: Word, Excel, etc.
-
-Operating Systems: Linux/Unix, Mac, Windows.
-
-Experience with distributed computing in a clustered environment.
-
-[Foreign languages]{}
-
-English: Complete professional competence.
-
-French: Basic competence.
-
-German: Limited basic competence.
-
-[Driving licence B]{}
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Courses and Certifications
+==========================
+
+* Academic Teaching Excellence: English as a Medium of Instruction (EMI),
+British Council, 2019
+
+* [International Computer Vision Summer School - Learning to See
+(ICVSS)](http://svg.dmi.unict.it/icvss2015/), Sicily, Italy, 2015.
+
+* Teachers’ Development Course, Carlos III University of Madrid, 2014.
+
+* English B2 Course, EF International School of English, New York, United
+States, 2010.
+
+Skills
+======
+
+* Computer skills
+
+  * Languages: Python (+4 years of experience), Matlab (+8 years of
+experience), C, C++, Java, some use of Unix shell scripts.
+
+  * Algorithms: Experience programming Deep Learning-based architectures
+(Keras, Tensorflow libraries) and Bayesian models.
+
+  * LaTeX and Microsoft productivity tools: Word, Excel, etc.
+
+  * Operating Systems: Linux/Unix, Mac, Windows.
+
+  * Experience with distributed computing in a clustered environment.
+
+* Foreign languages
+
+  * English: Complete professional competence.
+
+  * French: Basic competence.
+
+  * German: Limited basic competence.
+
+* Driving licence B
