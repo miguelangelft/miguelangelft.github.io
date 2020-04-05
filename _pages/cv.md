@@ -139,33 +139,32 @@ Publications
 !--->
   
 * Journal
-  * [**Fernández-Torres, M. Á.**]{}, González-Díaz, I., & Díaz-de-María, F.
+  * **Fernández-Torres, M. Á.**, González-Díaz, I., & Díaz-de-María, F.
 (2019). Probabilistic Topic Model for Context-Driven Visual Attention
 Understanding. Accepted for publication in IEEE Transactions on Circuits
 and Systems for Video Technology. [DOI:
 10.1109/TCSVT.2019.2909427](https://doi.org/10.1109/TCSVT.2019.2909427)
 
-  * Fernández-Martínez, F., Hernández-García, A., [**Fernández-Torres, M.
-A.**]{}, González-Díaz, I., García-Faura, Á., & de María, F. D. (2018).
+  * Fernández-Martínez, F., Hernández-García, A., **Fernández-Torres, M.
+A.**, González-Díaz, I., García-Faura, Á., & de María, F. D. (2018).
 Exploiting visual saliency for assessing the impact of car commercials
 upon viewers. Multimedia Tools and Applications, 77(15), 18903-18933.
-[DOI:
-10.1007/s11042-017-5339-9](https://doi.org/10.1007/s11042-017-5339-9)
+[DOI:10.1007/s11042-017-5339-9](https://doi.org/10.1007/s11042-017-5339-9)
 
-  * López-Labraca, J., [**Fernández-Torres, M. Á.**]{}, González-Díaz, I.,
+  * López-Labraca, J., **Fernández-Torres, M. Á.**, González-Díaz, I.,
 Díaz-de-María, F., & Pizarro, Á. (2018). Enriched
 dermoscopic-structure-based cad system for melanoma diagnosis.
 Multimedia Tools and Applications, 77(10), 12171-12202. [DOI:
 10.1007/s11042-017-4879-3](https://doi.org/10.1007/s11042-017-4879-3)
 
 * International Conferences]
-  * [**Fernández-Torres, M. Á.**]{}, González-Díaz, I., & Díaz-de-María, F.
+  * **Fernández-Torres, M. Á.**, González-Díaz, I., & Díaz-de-María, F.
 (2016, June). A probabilistic topic approach for context-aware visual
 attention modeling. In 2016 14th International Workshop on Content-Based
 Multimedia Indexing (CBMI) (pp. 1-6). IEEE. [DOI:
 10.1109/CBMI.2016.7500272](https://doi.org/10.1109/CBMI.2016.7500272)
 
-  * Martínez-Cortés, T., [**Fernández-Torres, M. Á.**]{}, Jiménez-Moreno,
+  * Martínez-Cortés, T., **Fernández-Torres, M. Á.**, Jiménez-Moreno,
 A., González-Díaz, I., Díaz-de-María, F., Guzmán-De-Villoria, J. A., &
 Fernández, P. (2014, October). A Bayesian model for brain tumor
 classification using clinical-based features. In 2014 IEEE International
@@ -178,16 +177,16 @@ Talks
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
----!>
+!--->
   
 * Local Conferences
-  * [Martínez-Cebrián, J. & **Fernández-Torres, M. Á.**]{} (2019, November).
+  * Martínez-Cebrián, J. & **Fernández-Torres, M. Á.** (2019, November).
 Context-Based Interpretability for Visual Attention using AI. In Big
 Things Conference 2019 (Oral presentation).
 <https://www.bigthingsconference.com/2019/schedule/context-based-interpretability-for-visual-attention-using-ai/>,
 <https://youtu.be/EEHYa26B63c>
 
-  * [**Fernández-Torres, M. Á.**]{} (2019, March). Visual attention: How to
+  * **Fernández-Torres, M. Á.** (2019, March). Visual attention: How to
 guide a machine in the world around us. In T3chFest 2019 (Oral
 presentation).
 <https://t3chfest.uc3m.es/2019/programa/visual-attention-how-guide-machine-the-world-around/>,
@@ -222,7 +221,7 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
----!>
+!--->
   
 * Digital Image Processing (B.S. in Sound and Image
 Engineering, Summer Semester 2020)
