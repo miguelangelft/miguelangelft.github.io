@@ -121,7 +121,7 @@ Madrid (Spain)
   * Employment of the student records database and software for university
 income.
 
-**CSIC Institute of Applied Physics**, Madrid (Spain)
+**CSIC Institute of Applied Physics**, Madrid (Spain), **September, 2009 - May, 2010**
 
 * Collaboration Scholarship.
 
