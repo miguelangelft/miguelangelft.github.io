@@ -8,6 +8,11 @@ redirect_from:
 ---
 
 {% include base_path %}
+Research Interests
+==================
+
+Computer Vision, Image Processing, Machine Learning, Deep Learning,
+Bayesian models, visual attention modeling, biomedical image processing.
 
 Education
 =========
