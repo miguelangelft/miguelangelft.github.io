@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Miguel Ángel Fernández Torres"
 title_separator          : "-"
 name                     : &name "Miguel Ángel Fernández Torres"
-description              : &description "Assistant Professor and Researcher at Universidad Carlos III de Madrid. Avda. de la Universidad, 30. Leganés, 28911, Madrid (Spain). Office 4.2.A01"
+description              : &description "Assistant Professor and Researcher at Universidad Carlos III de Madrid. \n Avda. de la Universidad, 30. Leganés, 28911, Madrid (Spain). Office 4.2.A01"
 url                      : https://miguelangelft.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "miguelangelft/miguelangelft.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Miguel Ángel Fernández Torres"
   avatar           : "MAFT.JPG"
-  bio              : "Assistant Professor and Researcher at Universidad Carlos III de Madrid. Avda. de la Universidad, 30. Leganés, 28911, Madrid (Spain). Office 4.2.A01" #"Your biography for the left-hand sidebar"
+  bio              : "Assistant Professor and Researcher at Universidad Carlos III de Madrid. \n Avda. de la Universidad, 30. Leganés, 28911, Madrid (Spain). Office 4.2.A01" #"Your biography for the left-hand sidebar"
   location         : "Leganés, Madrid"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
