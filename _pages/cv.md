@@ -151,10 +151,12 @@ Publications
 !--->
   
 * Journal
+
+  * Martínez-Cebrián, J., **Fernández-Torres, M. Á.**, & Díaz-de-María, F. Interpretable Global-Local Dynamics for the Prediction of Eye Fixations in Autonomous Driving Scenarios. IEEE Access, 8, 217068-217085. [DOI: 10.1109/ACCESS.2020.3041606](https://doi.org/10.1109/ACCESS.2020.3041606)
+
   * **Fernández-Torres, M. Á.**, González-Díaz, I., & Díaz-de-María, F.
 (2019). Probabilistic Topic Model for Context-Driven Visual Attention
-Understanding. Accepted for publication in IEEE Transactions on Circuits
-and Systems for Video Technology. [DOI:
+Understanding. IEEE Transactions on Circuits and Systems for Video Technology, vol. 30, no. 6, pp. 1653-1667, June 2020. [DOI:
 10.1109/TCSVT.2019.2909427](https://doi.org/10.1109/TCSVT.2019.2909427)
 
   * Fernández-Martínez, F., Hernández-García, A., **Fernández-Torres, M.
@@ -207,6 +209,8 @@ presentation).
 Projects
 ========
 
+* Understanding and Modelling the Earth System with Machine Learning ERC-2019-SyG - ERC Synergy Grant. Funded by the H2020-EU.1.1. - EXCELLENT SCIENCE - European Research Council (ERC). Image and Signal Processing Group, University of Valencia, 2020-2026. PRs: [Prof. Dr. Veronika Eyring](mailto:veronika.eyring@dlr.de), [Prof. Dr. Markus Reichstein](mailto:Markus.Reichstein@jena.mpg.de), [Prof. Dr. Gustau Camps-Valls](mailto:gustau.camps@uv.es), [Prof. Dr. Pierre Gentine](mailto:pg2328@columbia.ed).
+
 * Detection of cylindrical or edge milestones for an automatic road
 maintenance system. Funded by ALVAC S.A. Multimedia Processing Group,
 Carlos III University of Madrid, 2018-2020. PRs: [Dr. Fernando Díaz de
@@ -234,7 +238,11 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 !--->
-  
+
+* Applications of
+Speech, Audio, Image and Video Processing (M.S. in Telecommunications
+Engineering, Winter Semester 2020)
+* Audio and Visual Analytics (B.S. in Telecommunication Technologies, Winter Semester 2020)
 * Digital Image Processing (B.S. in Sound and Image
 Engineering, Summer Semester 2020)
 * Electromagnetic Fields (B.S. in
