@@ -12,4 +12,6 @@ Human eye movements while driving reveal that visual attention largely depends o
 
 [Download paper here](https://doi.org/10.1109/ACCESS.2020.3041606)
 
+[Code available here](https://github.com/javiermcebrian/glcapsnet)
+
 Recommended citation: J. Martínez-Cebrián, M. -Á. Fernández-Torres and F. Díaz-De-María, "Interpretable Global-Local Dynamics for the Prediction of Eye Fixations in Autonomous Driving Scenarios," in IEEE Access, vol. 8, pp. 217068-217085, 2020, doi: 10.1109/ACCESS.2020.3041606.
