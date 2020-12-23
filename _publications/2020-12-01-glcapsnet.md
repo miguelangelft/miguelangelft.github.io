@@ -1,7 +1,7 @@
 ---
 title: "Interpretable Global-Local Dynamics for the Prediction of Eye Fixations in Autonomous Driving Scenarios"
 collection: publications
-permalink: /publication/2020-12-01-glcapsnet.md
+permalink: https://doi.org/10.1109/ACCESS.2020.3041606
 excerpt: 
 date: 2020-12-01
 venue: 'IEEE Access'
