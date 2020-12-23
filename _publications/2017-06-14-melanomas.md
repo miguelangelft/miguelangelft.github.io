@@ -1,7 +1,7 @@
 ---
 title: "Enriched dermoscopic-structure-based cad system for melanoma diagnosis"
 collection: publications
-permalink: https://doi.org/10.1007/s11042-017-4879-3
+permalink: publications/2017-06-14-melanomas
 excerpt: 
 date: 2017-06-16
 venue: 'Multimedia Tools and Applications'
