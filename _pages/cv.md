@@ -80,10 +80,16 @@ School of Carlos III University of Madrid, 2009
 Academic Experience
 ===================
 
+**University of Valencia**, Valencia (Spain)
+* Junior Researcher with Ph.D., **November, 2020 - present**
+
+  * Image and Signal Processing Group, Image Processing Laboratory. 
+  * Participating in the project "Understanding and modelling the earth system with machine learning (USMILE)".
+
 **Polytechnic School of Carlos III University of Madrid**, Leganés,
 Madrid (Spain)
 
-* Teaching Assistant, **October, 2018 - present**
+* Teaching Assistant, **October, 2018 - October, 2020**
 
   * Multimedia Processing Group, Department of Signal Theory and
 Communications.
