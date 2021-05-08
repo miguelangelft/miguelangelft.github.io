@@ -13,7 +13,7 @@ Research Interests
 ==================
 
 Computer Vision, Image Processing, Machine Learning, Deep Learning,
-Bayesian models, visual attention modeling, biomedical image processing.
+Bayesian models, anomaly detection, visual attention modeling, biomedical image processing.
 
 Education
 =========
@@ -172,6 +172,9 @@ Multimedia Tools and Applications, 77(10), 12171-12202. [DOI:
 10.1007/s11042-017-4879-3](https://doi.org/10.1007/s11042-017-4879-3)
 
 * International Conferences
+  * **Fernández-Torres, M. Á.**, Johnson, J. E., Piles, M., & Camps-Valls, G. (2021). Spatio-Temporal Gaussianization Flows for Extreme Event Detection (No. EGU21-15729). Copernicus Meetings. [DOI:
+10.5194/egusphere-egu21-15729](https://doi.org/10.5194/egusphere-egu21-15729)
+
   * **Fernández-Torres, M. Á.**, González-Díaz, I., & Díaz-de-María, F.
 (2016, June). A probabilistic topic approach for context-aware visual
 attention modeling. In 2016 14th International Workshop on Content-Based
@@ -289,17 +292,16 @@ Skills
 
 * Computer skills
 
-  * Languages: Python (+4 years of experience), Matlab (+8 years of
+  * Languages: Python (+5 years of experience), Matlab (+10 years of
 experience), C, C++, Java, some use of Unix shell scripts.
 
-  * Algorithms: Experience programming Deep Learning-based architectures
-(Keras, Tensorflow libraries) and Bayesian models.
+  * Algorithms: Experience programming Deep Learning-based architectures and Bayesian models (PyTorch, Keras, Tensorflow libraries).
 
   * LaTeX and Microsoft productivity tools: Word, Excel, etc.
 
   * Operating Systems: Linux/Unix, Mac, Windows.
 
-  * Experience with distributed computing in a clustered environment.
+  * Experience with distributed computing in clustered environments.
 
 * Foreign languages
 
