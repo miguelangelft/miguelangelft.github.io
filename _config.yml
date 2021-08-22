@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Miguel Ángel Fernández Torres"
 title_separator          : "-"
 name                     : &name "Miguel Ángel Fernández Torres"
-description              : &description "Junior Researcher with PhD at Universitat de València. \n Calle Catedrático Doctor D. José Beltrán Martínez 2, IPL, Parque Científico, Edificio 4, Planta 4, Lab 4.2, Paterna, 46980, Valencia (Spain)"
+description              : &description "Junior Researcher with PhD at Universitat de València. \n Calle Catedrático Doctor D. José Beltrán Martínez 2, IPL, Parque Científico, Building 4, Floor 4, Lab 4.2, Paterna, 46980, Valencia (Spain)"
 url                      : https://miguelangelft.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "miguelangelft/miguelangelft.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Miguel Ángel Fernández Torres"
   avatar           : "MAFT.JPG"
-  bio              : "Junior Researcher with PhD at Universitat de València. \n Calle Catedrático Doctor D. José Beltrán Martínez 2, IPL, Parque Científico, Edificio 4, Planta 4, Lab 4.2, Paterna, 46980, Valencia (Spain)" #"Your biography for the left-hand sidebar"
+  bio              : "Junior Researcher with PhD at Universitat de València. \n Calle Catedrático Doctor D. José Beltrán Martínez 2, IPL, Parque Científico, Building 4, Floor 4, Lab 4.2, Paterna, 46980, Valencia (Spain)" #"Your biography for the left-hand sidebar"
   location         : "Paterna, Valencia"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
