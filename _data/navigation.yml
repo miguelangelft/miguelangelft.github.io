@@ -9,14 +9,17 @@ main:
   #- title: "Guide"
   #  url: /markdown/
 
-  - title: "CV"
-    url: /cv/
-
   - title: "Publications"
     url: /publications/
 
   - title: "Talks"
     url: /talks/
 
+  - title: "Projects"
+    url: /projects/
+
   - title: "Teaching"
     url: /teaching/
+    
+  - title: "CV"
+    url: /cv/
