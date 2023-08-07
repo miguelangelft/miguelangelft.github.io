@@ -12,8 +12,7 @@ redirect_from:
 Research Interests
 ==================
 
-Computer Vision, Image Processing, Machine Learning, Deep Learning,
-Bayesian models, anomaly detection, visual attention modeling, biomedical image processing.
+Computer Vision, Image Processing, Machine Learning, Deep Learning, Bayesian models, Explainable AI, anomaly detection, extreme event detection and forecasting, visual attention modeling, biomedical image processing. 
 
 Education
 =========
@@ -60,6 +59,10 @@ for Excellence in the Academical Course 2012/2013.
 Honors and Awards
 =================
 
+* Teaching Associate Professor Certification, Agència Valenciana d’Avaluació i Prospectiva (AVAP), 2023
+
+* European Laboratory for Learning and Intelligent Systems (ELLIS) Member, since 2022
+
 * Teaching Assistant Professor Certification, National Agency for Quality
 Assessment and Accreditation of Spain (ANECA), 2019
 
@@ -81,10 +84,16 @@ Academic Experience
 ===================
 
 **University of Valencia**, Valencia (Spain)
-* Junior Researcher with Ph.D., **November, 2020 - present**
+* Senior Researcher with Ph.D., **March, 2023 - present**
+* Junior Researcher with Ph.D., **November, 2020 - February, 2023**
 
-  * Image and Signal Processing Group, Image Processing Laboratory. 
-  * Participating in the project "Understanding and modelling the earth system with machine learning (USMILE)".
+  * Image and Signal Processing Group, Image Processing Laboratory.
+  * Participating in the projects "Understanding and modelling the earth system with machine learning (USMILE)", "eXtreme events: Artificial Intelligence for Detection and Attribution (XAIDA)", and "ESA DeepExtremes: Explaining Extremes through Deep Learning".
+  * Supervision of Ph.D. students: Jordi Cortés-Andrés ("Advances in Extreme Event Detection and Attribution with Machine Learning"), Maria González-Calabuig ("Machine Learning Models for Impact Assessment of Severe Droughts"), Mengxue Zhang ("Physics-Aware Deep Learning Models for Drought Monitor and
+Prediction Based on Multi-Source Observational Data").
+  * Courses taught:
+    * XAIDA Summer School 2022: Artificial Intelligence for Detection and Attribution of Climate Extremes (20 June - 2 July 2022)
+    * Deep Learning for the Earth Sciences (January 2022, January 2023)
 
 **Polytechnic School of Carlos III University of Madrid**, Leganés,
 Madrid (Spain)
@@ -151,6 +160,10 @@ Publications
 !--->
   
 * Journal
+
+  * Laparra, V., Pérez-Suay, A., Piles, M., Muñoz-Marí, J., Amorós, J., Fernandez-Moran, R., **Fernández-Torres, M. Á.**, & Adsuara, J. E. (2023). Assessing the Impact of Using Short Videos for Teaching at Higher Education: Empirical evidence from log-files in a Learning Management System. IEEE Revista Iberoamericana de Tecnologias del Aprendizaje. [DOI: 10.1109/RITA.2023.3301411](https://doi.org/10.1109/RITA.2023.3301411)
+    
+  * Kondylatos, S., Prapas, I., Ronco, M., Papoutsis, I., Camps‐Valls, G., Piles, M., **Fernández-Torres, M. Á.**, & Carvalhais, N. (2022). Wildfire danger prediction and understanding with Deep Learning. Geophysical Research Letters, e2022GL099368. [DOI: 10.1029/2022GL09938](https://doi.org/10.1029/2022GL099368) 
 
   * Martínez-Cebrián, J., **Fernández-Torres, M. Á.**, & Díaz-de-María, F. Interpretable Global-Local Dynamics for the Prediction of Eye Fixations in Autonomous Driving Scenarios. IEEE Access, 8, 217068-217085. [DOI: 10.1109/ACCESS.2020.3041606](https://doi.org/10.1109/ACCESS.2020.3041606)
 
