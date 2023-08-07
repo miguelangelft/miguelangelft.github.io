@@ -262,6 +262,10 @@ presentation).
 Projects
 ========
 
+* DeepExtremes: Explaining Extremes through Deep Learning. Funded by the European Space Agency (ESA) AO/1-10797/21/I-EF for AI4Science: Multi-Hazards, Compounds and Cascade Events. Image and Signal Processing Group, University of Valencia, 2022-2024. PRs in UVEG: [Prof. Dr. Gustau Camps-Valls](mailto:gustau.camps@uv.es), [**Fernández-Torres, M. Á.**](mailto:miguel.a.fernandez@uv.es).
+
+* eXtreme events: Artificial Intelligence for Detection and Attribution LC-CLA-12-2020 - Advancing climate services. Funded by the H2020-EU.3.5. - SOCIETAL CHALLENGES - Climate action, Environment, Resource Efficiency and Raw Materials and H2020-EU.3.5.1. - Fighting and adapting to climate change. Image and Signal Processing Group, University of Valencia, 2021-2025. PR in UVEG: [Prof. Dr. Gustau Camps-Valls](mailto:gustau.camps@uv.es). [https://cordis.europa.eu/project/id/101003469](https://cordis.europa.eu/project/id/101003469)
+
 * Understanding and Modelling the Earth System with Machine Learning ERC-2019-SyG - ERC Synergy Grant. Funded by the H2020-EU.1.1. - EXCELLENT SCIENCE - European Research Council (ERC). Image and Signal Processing Group, University of Valencia, 2020-2026. PRs: [Prof. Dr. Veronika Eyring](mailto:veronika.eyring@dlr.de), [Prof. Dr. Markus Reichstein](mailto:Markus.Reichstein@jena.mpg.de), [Prof. Dr. Gustau Camps-Valls](mailto:gustau.camps@uv.es), [Prof. Dr. Pierre Gentine](mailto:pg2328@columbia.ed).
 
 * Detection of cylindrical or edge milestones for an automatic road
@@ -284,45 +288,21 @@ Group, Carlos III University of Madrid, 2015-2017. PRs: [Dr. Ascensión
 Gallardo-Antolín](mailto:gallardo@tsc.uc3m.es), [Dr. Carmen
 Peláez-Moreno](mailto:carmen@tsc.uc3m.es).
 
-Teaching
-======
-<!---
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-!--->
+Organizing Committees
+==========================
 
-* Applications of
-Speech, Audio, Image and Video Processing (M.S. in Telecommunications
-Engineering, Winter Semester 2020)
-* Audio and Visual Analytics (B.S. in Telecommunication Technologies, Winter Semester 2020)
-* Digital Image Processing (B.S. in Sound and Image
-Engineering, Summer Semester 2020)
-* Electromagnetic Fields (B.S. in
-Sound and Image Engineering, Summer Semester 2020)
-* Applications of
-Speech, Audio, Image and Video Processing (M.S. in Telecommunications
-Engineering, Winter Semester 2019)
-* Linear Systems (B.S. in
-Telecommunication Technologies, Winter Semester 2019)
-* Digital Image
-Processing (B.S. in Audiovisual System Engineering, Summer Semester 2019)
-* Multimedia Information Processing (B.S. in Telecommunication
-Technologies, Winter Semester 2018).
-* Digital Image Processing (B.S. in Audiovisual System
-Engineering, Summer Semester 2017-2018)
-* Algorithms for Multimedia
-Information Management (B.S. in Audiovisual System Engineering, Summer
-Semester 2017)
-* Multimedia (B.S. in Computer Science and Engineering,
-Winter Semester 2015)
-* Linear Systems (B.S. in Telematics Engineering,
-B.S. in Communication System Engineering, Winter Semester 2015).
-* Digital Image Processing (B.S. in Audiovisual System
-Engineering, Summer Semester 2014)
-* Multimedia Information Processing
-(B.S. in Telecommunication Technologies, Winter Semester 2013).
+* Local and Volunteer Chair in the 2023 26th International Conference on Artificial Intelligence and Statistics (AISTATS).
+* Local Chair in the 2022 25th International Conference on Artificial Intelligence and Statistics (AISTATS).
 
+Service to Profession
+==========================
+
+* Reviewer
+  * ISPRS Journal of Photogrammetry and Remote Sensing (Elsevier), Nature npj Climate and Atmospheric Science, Environmental Data Science (Cambridge University Press), IEEE Geoscience and Remote Sensing Letters, Journal of Real-Time Image Processing (Springer), IEEE Transactions on Circuits and Systems for Video Technology, IEEE Access Journal, MDPI Sensors Journal, MDPI Applied Sciences Journal, Journal of Medical Imaging and Health Informatics.
+  * Conferences: CVPR 2023 EarthVision Workshop, 2023 26th International Conference on Artificial Intelligence and Statistics (AISTATS), NeurIPS 2022 Worshop Tackling Climate Change with Machine Learning, CVPR 2022 EarthVision Workshop, 2022 25th International Conference on Artificial Intelligence and Statistics (AISTATS), NeurIPS 2021 Workshop on Pre-registration in Machine Learning.
+  * Book proposals: CRC Press - Taylor and Francis Group
+  * Grants: Climate Change AI Innovation Grants program 2023, Climate Change AI Innovation Grants program 2022
+    
 Courses and Certifications
 ==========================
 
@@ -342,8 +322,7 @@ Skills
 
 * Computer skills
 
-  * Languages: Python (+5 years of experience), Matlab (+10 years of
-experience), C, C++, Java, some use of Unix shell scripts.
+  * Languages: Python, Matlab, C, C++, Java, some use of Unix shell scripts.
 
   * Algorithms: Experience programming Deep Learning-based architectures and Bayesian models (PyTorch, Keras, Tensorflow libraries).
 
