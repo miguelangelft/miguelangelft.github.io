@@ -5,6 +5,14 @@ permalink: /teaching/
 author_profile: true
 ---
 
+**University of Valencia**, Valencia (Spain)
+* Senior Researcher with PhD, **March, 2023 - present**
+* Junior Researcher with PhD, **November, 2020 - February, 2023**
+
+  * Signals and Linear Systems (BSc in Telecommunications Electronic Engineering, Winter Semester 2022)
+  * Digital Signal Processing (BSc in Telecommunications Electronic Engineering, Winter Semester 2022)
+  * Connectionist Models (BSc in Data Science/BSc in Computer Engineering, Summer Semester 2023) 
+
 **Polytechnic School of Carlos III University of Madrid**, Leganés,
 Madrid (Spain)
 
