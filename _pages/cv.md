@@ -214,7 +214,7 @@ Multimedia Tools and Applications, 77(10), 12171-12202. [DOI:
 
   * Cortés-Andrés, J., **Fernández-Torres, M. Á.**, and Camps-Valls, G. (2021, December). Location-Aware Convolutional Encoder-Decoder for Drought Detection in Europe. In AGU Fall Meeting 2021. AGU. [https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/836661](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/836661)
 
-  * Varando, G., **Fernández-Torres, M. Á.**, and Camps-Valls, G. (2021, December). Learning Granger Causal Feature Representations. In AGU Fall Meeting 2021. AGU.  \[https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/857866](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/857866)
+  * Varando, G., **Fernández-Torres, M. Á.**, and Camps-Valls, G. (2021, December). Learning Granger Causal Feature Representations. In AGU Fall Meeting 2021. AGU. [https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/857866](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/857866)
 
   * Prapas, I., Kondylatos, S., Papoutsis, I., Camps-Valls, G., Ronco, M., **Fernández-Torres, M. Á.**, Guillem, M.P. and Carvalhais, N., 2021. Deep Learning Methods for Daily Wildfire Danger Forecasting. In Workshop on Artificial Intelligence for Humanitarian Assistance and Disaster Response at the 2021 35th Conference on Neural Information Processing Systems (NeurIPS) [https://doi.org/10.48550/arXiv.2111.02736](https://doi.org/10.48550/arXiv.2111.02736)
 
