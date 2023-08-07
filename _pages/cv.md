@@ -89,8 +89,6 @@ Academic Experience
 
   * Image and Signal Processing Group, Image Processing Laboratory.
   * Participating in the projects "Understanding and modelling the earth system with machine learning (USMILE)", "eXtreme events: Artificial Intelligence for Detection and Attribution (XAIDA)", and "ESA DeepExtremes: Explaining Extremes through Deep Learning".
-  * Supervision of Ph.D. students: Jordi Cortés-Andrés ("Advances in Extreme Event Detection and Attribution with Machine Learning"), Maria González-Calabuig ("Machine Learning Models for Impact Assessment of Severe Droughts"), Mengxue Zhang ("Physics-Aware Deep Learning Models for Drought Monitor and
-Prediction Based on Multi-Source Observational Data").
   * Courses taught:
     * XAIDA Summer School 2022: Artificial Intelligence for Detection and Attribution of Climate Extremes (20 June - 2 July 2022)
     * Deep Learning for the Earth Sciences (January 2022, January 2023)
