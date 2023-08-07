@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-* DeepExtremes: Explaining Extremes through Deep Learning. Funded by the European Space Agency (ESA) AO/1-10797/21/I-EF for AI4Science: Multi-Hazards, Compounds and Cascade Events. Image and Signal Processing Group, University of Valencia, 2022-2024. PRs in UVEG: [Prof. Dr. Gustau Camps-Valls](mailto:gustau.camps@uv.es), [**Fernández-Torres, M. Á.**](mailto:miguel.a.fernandez@uv.es).
+* DeepExtremes: Explaining Extremes through Deep Learning. Funded by the European Space Agency (ESA) AO/1-10797/21/I-EF for AI4Science: Multi-Hazards, Compounds and Cascade Events. Image and Signal Processing Group, University of Valencia, 2022-2024. PRs in UVEG: [Prof. Dr. Gustau Camps-Valls](mailto:gustau.camps@uv.es), [**Dr. Miguel-Ángel Fernández-Torres**](mailto:miguel.a.fernandez@uv.es).
 
 * eXtreme events: Artificial Intelligence for Detection and Attribution LC-CLA-12-2020 - Advancing climate services. Funded by the H2020-EU.3.5. - SOCIETAL CHALLENGES - Climate action, Environment, Resource Efficiency and Raw Materials and H2020-EU.3.5.1. - Fighting and adapting to climate change. Image and Signal Processing Group, University of Valencia, 2021-2025. PR in UVEG: [Prof. Dr. Gustau Camps-Valls](mailto:gustau.camps@uv.es). [https://cordis.europa.eu/project/id/101003469](https://cordis.europa.eu/project/id/101003469)
 
