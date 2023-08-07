@@ -196,7 +196,7 @@ Multimedia Tools and Applications, 77(10), 12171-12202. [DOI:
   * Zhang, M., **Fernández-Torres, M. Á.**, and Camps-Valls, G. Hybrid Recurrent Neural Network for Drought Monitoring. In Workshop Tackling Climate Change with Machine Learning at the 2022 36th Conference on Neural Information Processing Systems (NeurIPS). 
 [https://www.climatechange.ai/papers/neurips2022/51](https://www.climatechange.ai/papers/neurips2022/51)
 
-  * Varando, G., **Fernández-Torres, M. Á.**, Muñoz-Marí, J., and Camps-Valls, G. Learning Causal Representations with Granger PCA. In UAI 2022 Workshop on Causal Representation Learning. \[https://openreview.net/pdf?id=XsTEnaD\_Lel](https://openreview.net/pdf?id=XsTEnaD\_Lel)
+  * Varando, G., **Fernández-Torres, M. Á.**, Muñoz-Marí, J., and Camps-Valls, G. Learning Causal Representations with Granger PCA. In UAI 2022 Workshop on Causal Representation Learning. [https://openreview.net/pdf?id=XsTEnaD\_Lel](https://openreview.net/pdf?id=XsTEnaD\_Lel)
     
   * **Fernández-Torres, M. Á.**, Ronco, M., Benson, V., Requena-Mesa, C., Mahecha, M. and Camps-Valls, G. Explaining Deep Learning Models for Earth Surface Forecasting. In Living Planet Symposium 2022 (Poster), 23–27 May 2022.
 
