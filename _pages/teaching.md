@@ -14,12 +14,12 @@ author_profile: true
     * Connectionist Models (BSc in Data Science/BSc in Computer Engineering, Summer Semester 2023)
       
   * Co-supervision of Ph.D. students (together with Prof. Dr. Gustau Camps-Valls):
-    * Maria González-Calabuig ("Machine Learning Models for Impact Assessment of Severe Droughts"; September 2021 - present)
-    * Jordi Cortés-Andrés ("Advances in Extreme Event Detection and Attribution with Machine Learning"; January 2021 - present)
+    * Machine Learning Models for Impact Assessment of Severe Droughts (Maria González-Calabuig, September 2021 - present)
+    * Advances in Extreme Event Detection and Attribution with Machine Learning (Jordi Cortés-Andrés, January 2021 - present)
 
 * Department of Earth Physics and Termodynamics
   * Co-supervision of Ph.D. students (together with Prof. Dr. Gustau Camps-Valls):
-    * Mengxue Zhang ("Physics-Aware Deep Learning Models for Drought Monitor and Prediction Based on Multi-Source Observational Data"; January 2022 - present).
+    * Physics-Aware Deep Learning Models for Drought Monitor and Prediction Based on Multi-Source Observational Data (Mengxue Zhang, January 2022 - present).
 
 **Polytechnic School of Carlos III University of Madrid**, Leganés,
 Madrid (Spain)
