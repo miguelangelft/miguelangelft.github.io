@@ -43,13 +43,13 @@ Madrid (Spain)
     * Multimedia Information Processing (BSc in Telecommunication Technologies, Winter Semester 2013)
  
   * Supervision of B.S. and M.S. students:
-    * A Visual Attention-based System for the Automatic Diagnosis of Autism Spectrum Disorder (ASD) (Guillermo García-Castaño, 01/10/2020)
-    * A Spatial Attention-based System for the Automatic Detection of Melanomas (Sandra Pérez-Domínguez, 17/07/2020)
-    * Comparison of Strategies for Scan-Path Prediction Using CNN-based Saliency Maps (Kenza Marrakchi-Chikri, 15/10/2019)
-    * Interpretable Global-Local Dynamics of Visual Attention for Autonomous Driving Scenarios (Javier Martínez-Cebrián, 30/09/2019)
-    * Contextual Dynamics of Visual Attention for Autonomous Driving (Javier Martínez-Cebrián, 04/07/2019)
-    * A Study of Descriptors and Algorithms for Object Detection in Images (Jorge Sánchez-Alberto, 09/10/2018)
-    * A Comparative Study of Algorithms for Automatic Segmentation of Dermoscopic Images (Cristina González-Gonzalo, 03/10/2016)
+    * A Visual Attention-based System for the Automatic Diagnosis of Autism Spectrum Disorder (ASD) (Guillermo García-Castaño, BSc in Sound and Image Engineering, 01/10/2020)
+    * A Spatial Attention-based System for the Automatic Detection of Melanomas (Sandra Pérez-Domínguez, BSc in Sound and Image Engineering, 17/07/2020)
+    * Comparison of Strategies for Scan-Path Prediction Using CNN-based Saliency Maps (Kenza Marrakchi-Chikri, BSc in Audiovisual System Engineering, 15/10/2019)
+    * Interpretable Global-Local Dynamics of Visual Attention for Autonomous Driving Scenarios (Javier Martínez-Cebrián, Master in Multimedia and Communications, 30/09/2019)
+    * Contextual Dynamics of Visual Attention for Autonomous Driving (Javier Martínez-Cebrián, Master in Telecommunications Engineering, 04/07/2019)
+    * A Study of Descriptors and Algorithms for Object Detection in Images (Jorge Sánchez-Alberto, BSc in Audiovisual System Engineering, 09/10/2018)
+    * A Comparative Study of Algorithms for Automatic Segmentation of Dermoscopic Images (Cristina González-Gonzalo, BSc in Audiovisual System Engineering, 03/10/2016)
       
 <!--
 {% include base_path %}
