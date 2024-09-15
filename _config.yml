@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Miguel Ángel Fernández Torres"
 title_separator          : "-"
 name                     : &name "Miguel Ángel Fernández Torres"
-description              : &description "Senior Researcher with PhD at Universitat de València. \n Calle Catedrático Doctor D. José Beltrán Martínez 2, IPL, Parque Científico, Building 4, Floor 4, Lab 4.2, Paterna, 46980, Valencia (Spain)"
+description              : &description "Assistant Professor at Universidad Carlos III de Madrid. \n Department of Signal Theory and Communications, Avenida Universidad 30, Office 4.2.A05 (dcha.), Leganés, 28911, Madrid (Spain)"
 url                      : https://miguelangelft.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "miguelangelft/miguelangelft.github.io"
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Miguel Ángel Fernández Torres"
-  avatar           : "MAFT.JPG"
-  bio              : "Senior Researcher with PhD at Universitat de València. \n Calle Catedrático Doctor D. José Beltrán Martínez 2, IPL, Parque Científico, Building 4, Floor 4, Lab 4.2, Paterna, 46980, Valencia (Spain)" #"Your biography for the left-hand sidebar"
-  location         : "Paterna, Valencia"
+  avatar           : "MA_2024_25.JPG"
+  bio              : "Assistant Professor at Universidad Carlos III de Madrid. \n Department of Signal Theory and Communications, Avenida Universidad 30, Office 4.2.A05 (dcha.), Leganés, 28911, Madrid (Spain)" #"Your biography for the left-hand sidebar"
+  location         : "Leganés, Madrid"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.es/citations?user=YxMTPqEAAAAJ&hl=es&oi=ao" #"http://yourfullgooglescholarurl.com"
-  email            : "miguel.a.fernandez@uv.es, miguelangel.fernandeztorres@gmail.com"
+  email            : "migferna@ing.uc3m.es, matorres@tsc.uc3m.es, miguelangel.fernandeztorres@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Miguel_Angel_Fernandez-Torres" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
