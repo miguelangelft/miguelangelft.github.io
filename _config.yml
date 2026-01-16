@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Miguel Ángel Fernández Torres"
 description              : &description "Assistant Professor at Universidad Carlos III de Madrid. \n Department of Signal Theory and Communications, Avenida Universidad 30, Office 4.2.A05 (dcha.), Leganés, 28911, Madrid (Spain)"
 url                      : https://miguelangelft.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/xai4cv" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "miguelangelft/miguelangelft.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
