@@ -1,0 +1,40 @@
+{
+    "people": [
+        {
+            "img_url": "assets/images/sunnie_kim.jpeg",
+            "name": "Sunnie S. Y. Kim",
+            "organization": "Princeton University",
+            "website": "https://sunniesuhyoung.github.io/"
+        },
+        {
+            "img_url": "assets/images/vikram_ramaswamy.jpeg",
+            "name": "Vikram V. Ramaswamy",
+            "organization": "Princeton University",
+            "website": "https://www.cs.princeton.edu/~vr23/"
+        },
+        {
+            "img_url": "assets/images/ruth_fong.png",
+            "name": "Ruth Fong",
+            "organization": "Princeton University",
+            "website": "https://www.ruthfong.com/"
+        },
+        {
+            "img_url": "assets/images/filip_radenovic.jpeg",
+            "name": "Filip Radenovic",
+            "organization": "Meta AI",
+            "website": "https://filipradenovic.github.io"
+        },
+        {
+            "img_url": "assets/images/abhi_dubey.jpeg",
+            "name": "Abhimanyu Dubey",
+            "organization": "Meta AI",
+            "website": "https://abhimanyudubey.github.io/"
+        },
+        {
+            "img_url": "assets/images/deepti_ghadiyaram.png",
+            "name": "Deepti Ghadiyaram",
+            "organization": "Runway",
+            "website": "https://deeptigp.github.io"
+        }
+    ]
+}

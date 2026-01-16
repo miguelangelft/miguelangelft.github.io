@@ -1,0 +1,35 @@
+{
+    "speakers": [
+        {
+            "img_url": "assets/images/mihaela_vanderschaar.png",
+            "name": "Mihaela van der Schaar",
+            "organization": "University of Cambridge",
+            "website": "https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/"
+        },
+        {
+            "img_url": "assets/images/lily_weng.jpeg",
+            "name": "Tsui-Wei (Lily) Weng",
+            "organization": "UC San Diego",
+            "website": "https://lilywenglab.github.io/"
+        },
+        {
+            "img_url": "assets/images/klaus_robert_muller.jpg",
+            "name": "Klaus-Robert Müller",
+            "organization": "TU Berlin & Korea University & Google DeepMind & MPI-INF",
+            "website": "https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/"
+        },
+        {
+            "img_url": "assets/images/junfeng_he.png",
+            "name": "Junfeng He",
+            "organization": "Google Research",
+            "website": "https://research.google/people/106417/"
+        },
+        {
+            "img_url": "assets/images/chinasa_okolo.jpeg",
+            "name": "Chinasa T. Okolo",
+            "organization": "The Brookings Institution",
+            "website": "https://www.brookings.edu/people/chinasa-t-okolo/"
+        }
+
+    ]
+}

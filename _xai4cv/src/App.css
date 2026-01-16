@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #fff;
+  width: 100%;
+  /* min-height: 20vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.citation {
+  background-color: #eee;
+}
+
+.citation-pre {
+  background-color: #eee;
+  white-space: pre-wrap;
+  word-break: break-all;
+  padding: 1em;
+  font-size: calc(6px + 1vmin);
+}

@@ -1,0 +1,41 @@
+{
+    "speakers": [
+        {
+            "img_url": "assets/images/tim_miller.png",
+            "name": "Tim Miller",
+            "organization": "The University of Queensland",
+            "website": "https://eecs.uq.edu.au/profile/9477/tim-miller"
+        },
+        {
+            "img_url": "assets/images/suin_lee.jpeg",
+            "name": "Su-In Lee",
+            "organization": "University of Washington",
+            "website": "https://aims.cs.washington.edu/su-in-lee"
+        },
+        {
+            "img_url": "assets/images/kristian_kersting.jpeg",
+            "name": "Kristian Kersting",
+            "organization": "TU Darmstadt",
+            "website": "https://ml-research.github.io/people/kkersting/"
+        },
+        {
+            "img_url": "assets/images/bernt_schiele.jpeg",
+            "name": "Bernt Schiele",
+            "organization": "MPI for Informatics",
+            "website": "https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele"
+        },
+        {
+            "img_url": "assets/images/leonid_sigal.jpeg",
+            "name": "Leonid Sigal",
+            "organization": "University of British Columbia",
+            "website": "https://www.cs.ubc.ca/~lsigal/"
+        },
+        {
+            "img_url": "assets/images/vineeth_balasubramanian.jpg",
+            "name": "Vineeth N Balasubramanian",
+            "organization": "Indian Institute of Technology, Hyderabad",
+            "website": "https://people.iith.ac.in/vineethnb/"
+        }
+
+    ]
+}

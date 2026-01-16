@@ -1,0 +1,52 @@
+{
+    "speakers": [
+        {
+            "img_url": "assets/images/antonio_torralba.jpeg", 
+            "name": "Antonio Torralba", 
+            "organization": "MIT",
+            "website": "http://web.mit.edu/torralba/www"
+        },
+        {
+            "img_url": "assets/images/yixin_wang.jpeg", 
+            "name": "Yixin Wang", 
+            "organization": "University of Michigan",
+            "website": "https://yixinwang.github.io"
+        },
+        {
+            "img_url": "assets/images/rich_caruana.jpeg", 
+            "name": "Rich Caruana", 
+            "organization": "MSR",
+            "website": "https://www.microsoft.com/en-us/research/people/rcaruana"
+        },
+        {
+            "img_url": "assets/images/been_kim.jpeg", 
+            "name": "Been Kim", 
+            "organization": "Google Brain",
+            "website": "https://beenkim.github.io"
+        },
+        {
+            "img_url": "assets/images/trevor_darrell.jpeg", 
+            "name": "Trevor Darrell", 
+            "organization": "UC Berkeley",
+            "website": "https://people.eecs.berkeley.edu/~trevor"
+        },
+        {
+            "img_url": "assets/images/pradeep_ravikumar.jpeg", 
+            "name": "Pradeep Ravikumar", 
+            "organization": "Carnegie Mellon University",
+            "website": "https://www.cs.cmu.edu/~pradeepr"
+        },
+        {
+            "img_url": "assets/images/serena_yeung.jpeg", 
+            "name": "Serena Yeung", 
+            "organization": "Stanford",
+            "website": "https://ai.stanford.edu/~syyeung"
+        },
+        {
+            "img_url": "assets/images/hima_lakkaraju.jpeg", 
+            "name": "Hima Lakkaraju", 
+            "organization": "Harvard University",
+            "website": "https://himalakkaraju.github.io"
+        }
+    ]
+}

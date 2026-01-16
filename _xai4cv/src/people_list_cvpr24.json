@@ -1,0 +1,64 @@
+{
+    "people": [
+        {
+            "img_url": "assets/images/indu_panigrahi.jpeg",
+            "name": "Indu Panigrahi",
+            "organization": "Princeton University",
+            "website": "https://xai4cv.github.io/"
+        },
+        {
+            "img_url": "assets/images/sunnie_kim.jpeg",
+            "name": "Sunnie S. Y. Kim",
+            "organization": "Princeton University",
+            "website": "https://sunniesuhyoung.github.io/"
+        },
+        {
+            "img_url": "assets/images/vikram_ramaswamy.jpeg",
+            "name": "Vikram V. Ramaswamy",
+            "organization": "Princeton University",
+            "website": "https://www.cs.princeton.edu/~vr23/"
+        },
+        {
+            "img_url": "assets/images/sukrut_rao.png",
+            "name": "Sukrut Rao",
+            "organization": "Max Planck Institute for Informatics",
+            "website": "https://sukrutrao.github.io/"
+        },
+        {
+            "img_url": "assets/images/stefan_kolek.jpg",
+            "name": "Stefan Kolek",
+            "organization": "LMU Munich",
+            "website": "https://skmda37.github.io/"
+        },
+        {
+            "img_url": "assets/images/lenka_tetkova.jpg",
+            "name": "Lenka Tětková",
+            "organization": "Technical University of Denmark",
+            "website": "https://www.linkedin.com/in/lenka-tetkova"
+        },
+        {
+            "img_url": "assets/images/jawad_tayyub.jpg",
+            "name": "Jawad Tayyub",
+            "organization": "Endress + Hauser",
+            "website": "https://xai4cv.github.io/"
+        },
+        {
+            "img_url": "assets/images/katelyn_morrison.png",
+            "name": "Katelyn Morrison",
+            "organization": "Carnegie Mellon University",
+            "website": "https://katelyn98.github.io/"
+        },
+        {
+            "img_url": "assets/images/pushkar_shukla.jpeg",
+            "name": "Pushkar Shukla",
+            "organization": "Toyota Technolgical Institute at Chicago",
+            "website": "https://pushkershukla.github.io/shukla.github.io/"
+        },
+        {
+            "img_url": "assets/images/deepti_ghadiyaram.png",
+            "name": "Deepti Ghadiyaram",
+            "organization": "Runway",
+            "website": "https://deeptigp.github.io"
+        }
+    ]
+}
