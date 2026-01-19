@@ -1,0 +1,42 @@
+---
+import speakersData from '../../../data/workshops/xai4cv/speakers_list_cvpr25.json';
+
+const {
+  speakers = speakersData.speakers,
+  lgSize = 4,
+} = Astro.props;
+---
+
+<div class="grid">
+  {speakers.map((person) => (
+    <div class="card" style={`--lg:${lgSize}`}>
+      <a href={person.website} target="_blank" rel="noopener">
+        <img class="avatar" src={person.img_url} alt={person.name} />
+      </a>
+      <a href={person.website} target="_blank" rel="noopener">
+        <strong>{person.name}</strong>
+      </a>
+      <div class="org">{person.organization}</div>
+    </div>
+  ))}
+</div>
+
+<style>
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  text-align: center;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.org {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+</style>

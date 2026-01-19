@@ -1,0 +1,118 @@
+---
+// Import the data directly in the frontmatter
+import peopleData from '../../../data/workshops/xai4cv/people_list_cvpr25.json';
+
+/**
+ * Props definition
+ * @param people - Optional array of person objects
+ * @param lgSize - Grid size for large screens (default 4, which is 3 columns)
+ */
+interface Props {
+  people?: Array<{
+    name: string;
+    website: string;
+    img_url: string;
+    organization: string;
+  }>;
+  lgSize?: number;
+}
+
+const { people: propsPeople, lgSize = 4 } = Astro.props;
+
+// Logic for selecting the data source
+const selectedPeople = propsPeople || peopleData.people;
+
+// Calculate grid column spans based on the 12-column logic
+// In CSS Grid, we can use 12 columns to mimic Material UI's grid behavior
+const lgColumns = 12 / lgSize;
+---
+
+<div class="people-container">
+  {selectedPeople.map((person) => (
+    <div class="grid-item">
+      <a href={person.website} target="_blank" rel="noopener" class="avatar-link">
+        <img src={person.img_url} alt={person.name} class="avatar" />
+      </a>
+      
+      <a href={person.website} target="_blank" rel="noopener" class="name-link">
+        <p class="name"><strong>{person.name}</strong></p>
+      </a>
+      
+      <p class="organization">{person.organization}</p>
+    </div>
+  ))}
+</div>
+
+<style define:vars={{ lgColumns }}>
+  .people-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* xs={12} */
+    gap: 1rem;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .grid-item {
+    padding: 1rem; /* theme.spacing(2) */
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    transition: opacity 0.2s;
+  }
+
+  .avatar:hover {
+    opacity: 0.8;
+  }
+
+  .name-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .name {
+    margin: 8px 0 0 0;
+    font-size: 1rem; /* subtitle1 fallback */
+    line-height: 1.75;
+  }
+
+  .organization {
+    margin: 0;
+    font-size: 0.75rem; /* caption */
+    color: #666;
+  }
+
+  /* Responsive breakpoints mimicking Material UI */
+  @media (min-width: 600px) { /* sm */
+    .people-container {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .grid-item {
+        /* MUI sm={8} is roughly 66% width, centered via container */
+        max-width: 66%;
+    }
+  }
+
+  @media (min-width: 960px) { /* md */
+    .people-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr)); /* md={6} */
+    }
+    .grid-item {
+        max-width: 100%;
+    }
+  }
+
+  @media (min-width: 1280px) { /* lg */
+    .people-container {
+      /* Uses the dynamic lgSize prop to set columns */
+      grid-template-columns: repeat(var(--lgColumns), minmax(0, 1fr));
+    }
+  }
+</style>
