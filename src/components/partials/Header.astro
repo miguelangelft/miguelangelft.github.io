@@ -29,19 +29,6 @@ const config = getSiteConfig();
               ]}>Home</a
             >
           </li>
-          {config.sections.writing && (
-            <li>
-              <a
-                href="/writing"
-                class:list={[
-                  'font-medium transition-colors block px-5 py-2',
-                  'hover:text-headings',
-                  isWritingPage &&
-                    'text-headings bg-muted-foreground/40 rounded-full',
-                ]}>Writing</a
-              >
-            </li>
-          )}
         </ul>
       </nav>
     </div>

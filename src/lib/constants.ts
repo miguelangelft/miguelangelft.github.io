@@ -1,6 +1,6 @@
 import type { z } from 'astro/zod';
 import MetaDefaultImage from '@/assets/images/meta-default.jpg';
-import avatar from '@/assets/images/avatar.png';
+import avatar from '@/assets/images/MA_2024_25.jpg';
 import type { seoSchemaWithoutImage } from '@/content.config';
 import astroConfig from 'astro.config.mjs';
 
@@ -27,10 +27,10 @@ export const DEFAULT_CONFIGURATION: DefaultConfigurationType = {
   baseUrl: astroConfig.site || 'https://getcvfolio.com',
   author: {
     avatar,
-    name: 'Javier Diaz Chamorro',
-    headline: 'Engineering and Design',
-    username: 'coderdiaz',
-    location: 'Mexico City',
+    name: 'Miguel-Ángel Fernández-Torres',
+    headline: 'Assistant Professor at Universidad Carlos III de Madrid',
+    username: 'miguelangelft',
+    location: 'Leganés, Madrid, Spain',
     pronouns: 'He/Him',
   },
   seo: {
