@@ -10,7 +10,6 @@ import { remarkReadingTime } from './src/lib/remark.mjs';
 export default defineConfig({
   site: 'https://miguelangelft.github.io/',
   base: '/',
-  output: 'static',
   markdown: {
     remarkPlugins: [remarkReadingTime],
     shikiConfig: {

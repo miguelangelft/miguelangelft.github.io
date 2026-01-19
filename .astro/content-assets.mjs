@@ -1,4 +1,9 @@
 
+import __ASTRO_IMAGE_IMPORT_vqonX from "./image-1.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fjobs%2Freboot-studio%2Findex.mdx";
+import __ASTRO_IMAGE_IMPORT_1SN4ff from "./image-2.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fjobs%2Freboot-studio%2Findex.mdx";
+import __ASTRO_IMAGE_IMPORT_Z1N1oHp from "./image-3.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fjobs%2Freboot-studio%2Findex.mdx";
+import __ASTRO_IMAGE_IMPORT_ZpDIQ8 from "./image-4.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fjobs%2Freboot-studio%2Findex.mdx";
 import __ASTRO_IMAGE_IMPORT_N9mps from "./meta.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fposts%2Fexample-post%2Findex.mdx";
-export default new Map([["./meta.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fposts%2Fexample-post%2Findex.mdx", __ASTRO_IMAGE_IMPORT_N9mps]]);
+import __ASTRO_IMAGE_IMPORT_eUzbI from "./meta.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fposts%2Fcode-example%2Findex.mdx";
+export default new Map([["./image-1.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fjobs%2Freboot-studio%2Findex.mdx", __ASTRO_IMAGE_IMPORT_vqonX], ["./image-2.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fjobs%2Freboot-studio%2Findex.mdx", __ASTRO_IMAGE_IMPORT_1SN4ff], ["./image-3.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fjobs%2Freboot-studio%2Findex.mdx", __ASTRO_IMAGE_IMPORT_Z1N1oHp], ["./image-4.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fjobs%2Freboot-studio%2Findex.mdx", __ASTRO_IMAGE_IMPORT_ZpDIQ8], ["./meta.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fposts%2Fexample-post%2Findex.mdx", __ASTRO_IMAGE_IMPORT_N9mps], ["./meta.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fposts%2Fcode-example%2Findex.mdx", __ASTRO_IMAGE_IMPORT_eUzbI]]);
 		
