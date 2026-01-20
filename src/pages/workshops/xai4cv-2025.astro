@@ -1,81 +1,93 @@
 ---
+// Import the main layout from your theme
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import Speakers from '../../components/workshops/xai4cv/Speakers_CVPR25.astro';
 import People from '../../components/workshops/xai4cv/People_CVPR25.astro';
+
+// Move academicons to your public/css/ folder
+const academiconsLink = `${import.meta.env.BASE_URL}/css/academicons.min.css`;
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>XAI4CV @ CVPR 2025</title>
-  <link rel="stylesheet" href="/styles/academicons.min.css" />
-</head>
-<body>
-  <main class="content">
-    <h1>The 4th Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2025</h1>
+<BaseLayout title="XAI4CV @ CVPR 2025">
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">The 4th Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2025</h1>
+      <p class="post-description">June 11, 2025 • Nashville, TN</p>
+    </header>
 
-    <section>
-      <p>
-        <strong>Recording:</strong>
-        <a href="https://www.youtube.com/watch?v=Y47yian9rnY" target="_blank">YouTube</a><br />
-        <strong>Date & Time:</strong> June 11, 2025, 1pm–5pm (CDT)<br />
-        <strong>Location:</strong> Music City Center, Nashville, TN
-      </p>
-    </section>
+    <article>
+      <section class="info-box">
+        <p>
+          <strong><i class="ai ai-cv"></i> Recording:</strong> 
+          <a href="https://www.youtube.com/watch?v=Y47yian9rnY" target="_blank">YouTube</a><br />
+          <strong>Date & Time:</strong> June 11, 2025, 1pm–5pm (CDT)<br />
+          [cite_start]<strong>Location:</strong> Music City Center, Nashville, TN [cite: 2]
+        </p>
+      </section>
 
-    <section>
-      <h2>Motivation</h2>
-      <p>
-        Explainability of computer vision systems is critical for people to effectively use and interact with them...
-      </p>
-    </section>
+      <section>
+        <h2>Motivation</h2>
+        <p>
+          Explainability of computer vision systems is critical for people to effectively use and interact with them...
+        </p>
+      </section>
 
-    <section>
-      <h2>Schedule</h2>
-      <ul class="schedule-list">
-        <li><strong>13:00–13:10</strong> Opening</li>
-        <li><strong>13:10–13:35</strong> Invited Talk – Tsui‑Wei (Lily) Weng</li>
-        <li><strong>13:35–14:00</strong> Invited Talk – Mihaela van der Schaar</li>
-        <li><strong>14:00–14:25</strong> Invited Talk – Klaus‑Robert Müller</li>
-        <li><strong>14:25–14:50</strong> Invited Talk – Chinasa T. Okolo</li>
-        <li><strong>14:50–15:20</strong> Spotlight Session 1</li>
-        <li><strong>15:20–16:10</strong> Poster Session</li>
-        <li><strong>16:10–16:35</strong> Invited Talk – Junfeng He</li>
-        <li><strong>16:35–16:55</strong> Spotlight Session 2</li>
-        <li><strong>16:55–17:00</strong> Closing</li>
-      </ul>
-    </section>
+      <section>
+        <h2>Schedule</h2>
+        <div class="table-responsive">
+          <table class="table table-sm table-borderless">
+            <tbody>
+              <tr><th scope="row">13:00–13:10</th><td>Opening</td></tr>
+              [cite_start]<tr><th scope="row">13:10–13:35</th><td>Invited Talk – Tsui‑Wei (Lily) Weng [cite: 3]</td></tr>
+              [cite_start]<tr><th scope="row">13:35–14:00</th><td>Invited Talk – Mihaela van der Schaar [cite: 3]</td></tr>
+              [cite_start]<tr><th scope="row">14:00–14:25</th><td>Invited Talk – Klaus‑Robert Müller [cite: 3]</td></tr>
+              [cite_start]<tr><th scope="row">14:25–14:50</th><td>Invited Talk – Chinasa T. Okolo [cite: 3]</td></tr>
+              [cite_start]<tr><th scope="row">14:50–15:20</th><td>Spotlight Session 1 [cite: 3]</td></tr>
+              [cite_start]<tr><th scope="row">15:20–16:10</th><td>Poster Session [cite: 3]</td></tr>
+              [cite_start]<tr><th scope="row">16:10–16:35</th><td>Invited Talk – Junfeng He [cite: 3]</td></tr>
+              [cite_start]<tr><th scope="row">16:35–16:55</th><td>Spotlight Session 2 [cite: 3]</td></tr>
+              [cite_start]<tr><th scope="row">16:55–17:00</th><td>Closing [cite: 3]</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-    <section>
-      <h2>Invited Speakers</h2>
-      <Speakers />
-    </section>
+      <section>
+        <h2>Invited Speakers</h2>
+        <Speakers />
+      </section>
 
-    <section>
-      <h2>Organizers</h2>
-      <People />
-    </section>
+      <section>
+        <h2>Organizers</h2>
+        <People />
+      </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:xai4cv2025@googlegroups.com">xai4cv2025@googlegroups.com</a></p>
-    </section>
-  </main>
-</body>
-</html>
+      <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:xai4cv2025@googlegroups.com">xai4cv2025@googlegroups.com</a></p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
 
 <style>
-  .content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    font-family: system-ui, sans-serif;
-    line-height: 1.6;
+  /* Use cvfolio-compatible variables */
+  .info-box {
+    background-color: var(--global-code-bg-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
   }
-  section { margin: 3rem 0; }
-  h1 { font-size: 2rem; margin-bottom: 1.5rem; }
-  h2 { border-bottom: 1px solid #eee; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
-  .schedule-list { list-style: none; padding: 0; }
-  .schedule-list li { margin-bottom: 0.5rem; }
-  .schedule-list strong { min-width: 100px; display: inline-block; }
+  h2 {
+    margin-top: 3rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.5rem;
+  }
+  .table th {
+    white-space: nowrap;
+    color: var(--global-theme-color);
+  }
 </style>
+
+<link rel="stylesheet" href={academiconsLink} />
