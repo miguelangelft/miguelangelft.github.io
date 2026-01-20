@@ -1,11 +1,11 @@
 ---
-// Import the data directly in the frontmatter
+// Import the data directly from the json provided
 import peopleData from '../../../data/workshops/xai4cv/people_list_cvpr25.json';
 
 /**
- * Props definition
+ * Props definition to match Speakers component logic
  * @param people - Optional array of person objects
- * @param lgSize - Grid size for large screens (default 4, which is 3 columns)
+ * @param lgSize - Grid size for large screens (default 4 results in 3 columns)
  */
 interface Props {
   people?: Array<{
@@ -18,100 +18,99 @@ interface Props {
 }
 
 const { people: propsPeople, lgSize = 4 } = Astro.props;
-
-// Logic for selecting the data source
 const selectedPeople = propsPeople || peopleData.people;
+const base = import.meta.env.BASE_URL;
 
-// Calculate grid column spans based on the 12-column logic
-// In CSS Grid, we can use 12 columns to mimic Material UI's grid behavior
+// Calculate columns for the grid (12 / 4 = 3 columns)
 const lgColumns = 12 / lgSize;
 ---
 
-<div class="people-container">
+<div class="xai-people-grid">
   {selectedPeople.map((person) => (
-    <div class="grid-item">
-      <a href={person.website} target="_blank" rel="noopener" class="avatar-link">
-        <img src={person.img_url} alt={person.name} class="avatar" />
+    <div class="xai-person-card">
+      <a href={person.website} target="_blank" rel="noopener" class="xai-avatar-link">
+        <img 
+          src={`${base}${person.img_url}`.replace('//', '/')} 
+          alt={person.name} 
+          class="xai-avatar-img" 
+        />
       </a>
       
-      <a href={person.website} target="_blank" rel="noopener" class="name-link">
-        <p class="name"><strong>{person.name}</strong></p>
-      </a>
-      
-      <p class="organization">{person.organization}</p>
+      <div class="xai-person-info">
+        <a href={person.website} target="_blank" rel="noopener" class="xai-name-link">
+          <strong>{person.name}</strong>
+        </a>
+        <p class="xai-org-text">{person.organization}</p>
+      </div>
     </div>
   ))}
 </div>
 
 <style define:vars={{ lgColumns }}>
-  .people-container {
+  /* Grid Container */
+  .xai-people-grid {
     display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr)); /* xs={12} */
-    gap: 1rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* Mobile: 1 column */
+    gap: 30px 20px;
     justify-items: center;
     text-align: center;
+    margin-top: 30px;
   }
 
-  .grid-item {
-    padding: 1rem; /* theme.spacing(2) */
+  /* Individual Card */
+  .xai-person-card {
     width: 100%;
-    max-width: 400px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .avatar {
-    width: 100px;
-    height: 100px;
+  /* Avatar Image */
+  .xai-avatar-img {
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 0 auto;
-    display: block;
-    transition: opacity 0.2s;
+    margin-bottom: 12px;
+    border: 1px solid #eee;
+    transition: opacity 0.2s ease-in-out;
   }
 
-  .avatar:hover {
+  .xai-avatar-img:hover {
     opacity: 0.8;
   }
 
-  .name-link {
+  /* Typography */
+  .xai-name-link {
     text-decoration: none;
-    color: inherit;
+    color: #428bca !important; /* Specific XAI4CV blue */
+    font-size: 16px;
+    display: block;
+    line-height: 1.3;
   }
 
-  .name {
-    margin: 8px 0 0 0;
-    font-size: 1rem; /* subtitle1 fallback */
-    line-height: 1.75;
+  .xai-name-link:hover {
+    text-decoration: underline;
   }
 
-  .organization {
-    margin: 0;
-    font-size: 0.75rem; /* caption */
-    color: #666;
+  .xai-org-text {
+    margin: 5px 0 0 0 !important;
+    font-size: 13px !important;
+    color: #777 !important;
+    line-height: 1.3 !important;
+    font-weight: 400;
   }
 
-  /* Responsive breakpoints mimicking Material UI */
-  @media (min-width: 600px) { /* sm */
-    .people-container {
-      grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
-    .grid-item {
-        /* MUI sm={8} is roughly 66% width, centered via container */
-        max-width: 66%;
-    }
-  }
-
-  @media (min-width: 960px) { /* md */
-    .people-container {
-      grid-template-columns: repeat(2, minmax(0, 1fr)); /* md={6} */
-    }
-    .grid-item {
-        max-width: 100%;
+  /* Responsive Breakpoints */
+  @media (min-width: 768px) {
+    .xai-people-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
-  @media (min-width: 1280px) { /* lg */
-    .people-container {
-      /* Uses the dynamic lgSize prop to set columns */
+  @media (min-width: 1200px) {
+    .xai-people-grid {
       grid-template-columns: repeat(var(--lgColumns), minmax(0, 1fr));
     }
   }
