@@ -1,0 +1,108 @@
+---
+// Import the data directly from the json provided
+import peopleData from '../../../data/workshops/xai4cv/people_list_cvpr26.json';
+
+/**
+ * Props definition to match Speakers component logic
+ * @param people - Optional array of person objects
+ * @param lgSize - Grid size for large screens (default 4 results in 3 columns)
+ */
+interface Props {
+  people?: Array<{
+    name: string;
+    website: string;
+    img_url: string;
+    organization: string;
+  }>;
+  lgSize?: number;
+}
+
+const { people: propsPeople, lgSize = 4 } = Astro.props;
+const selectedPeople = propsPeople || peopleData.people;
+const base = import.meta.env.BASE_URL;
+
+// Calculate columns for the grid based on Speakers' 12-column logic [cite: 20]
+const lgColumns = 12 / lgSize;
+---
+
+<div class="people-container">
+  {selectedPeople.map((person) => (
+    <div class="grid-item">
+      <a href={person.website} target="_blank" rel="noopener" class="avatar-link">
+        <img 
+          src={`${base}${person.img_url}`.replace('//', '/')} 
+          alt={person.name} 
+          class="avatar" 
+        />
+      </a>
+      
+      <a href={person.website} target="_blank" rel="noopener" class="name-link">
+        <p class="name"><strong>{person.name}</strong></p>
+      </a>
+      
+      <p class="organization">{person.organization}</p>
+    </div>
+  ))}
+</div>
+
+<style define:vars={{ lgColumns }}>
+  .people-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /*  */
+    gap: 1.5rem; /*  */
+    justify-items: center;
+    text-align: center;
+    margin-top: 2rem; /*  */
+  }
+
+  .grid-item {
+    width: 100%;
+    max-width: 250px; /* [cite: 23] */
+  }
+
+  .avatar {
+    width: 110px; /* [cite: 24] */
+    height: 110px; /* [cite: 24] */
+    border-radius: 50%; /* [cite: 24] */
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #eee; /* [cite: 24] */
+    transition: opacity 0.2s; /* [cite: 24] */
+  }
+
+  .avatar:hover {
+    opacity: 0.8; /* [cite: 25] */
+  }
+
+  .name-link {
+    text-decoration: none;
+    color: #428bca; /* Consistent link color from XAI4CV  */
+  }
+
+  .name {
+    margin: 10px 0 2px 0; /* [cite: 27] */
+    font-size: 1rem; /* [cite: 27] */
+    line-height: 1.4; /* [cite: 27] */
+  }
+
+  .organization {
+    margin: 0;
+    font-size: 0.85rem; /* [cite: 28] */
+    color: #777; /* [cite: 28] */
+    line-height: 1.3; /* [cite: 28] */
+  }
+
+  /* Responsive Grid matching Speakers component [cite: 29] */
+  @media (min-width: 768px) {
+    .people-container {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .people-container {
+      grid-template-columns: repeat(var(--lgColumns), minmax(0, 1fr)); /* [cite: 30] */
+    }
+  }
+</style>

@@ -1,0 +1,332 @@
+---
+import Speakers from '../../components/workshops/xai4cv/Speakers_CVPR26.astro';
+import People from '../../components/workshops/xai4cv/People_CVPR26.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XAI4CV @ CVPR 2026</title>
+  
+  <link rel="stylesheet" href={`${base}/styles/academicons.min.css`.replace('//', '/')} />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+</head>
+<body class="xai-workshop-reset">
+
+  <nav class="navbar-xai">
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="https://xai4cv.github.io/" class="nav-brand">XAI4CV</a>
+      </div>
+      <div class="nav-right">
+        <ul class="nav-links">
+          {/* <li><a href="#motivation">Motivation</a></li> */}
+          {/* <li><a href="#schedule">Schedule</a></li> */}
+          {/* <li><a href="#speakers">Speakers</a></li> */}
+          <li><a href="#cfp">Calls</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#submission">Submission</a></li>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#organizers">Organizers</a></li>
+          <li class="nav-mail-item">
+            <a href="mailto:xai4cv2026@googlegroups.com" title="Contact Us">
+               <i class="fa fa-envelope fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="xai-main-wrapper">
+    <div class="xai-inner-column">
+      <header class="xai-header">
+        <h1>The 5th Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2026</h1>
+      </header>
+
+      <section class="meta-info">
+        <p>
+          {/* <strong>Recording:</strong> <a href="https://www.youtube.com/watch?v=Y47yian9rnY" target="_blank">YouTube</a><br /> */}
+          <strong>Date & Time:</strong> June 3/4, 2026 (TBD)<br />
+          <strong>Location:</strong> Denver, CO, USA
+        </p>
+      </section>
+
+      <hr class="xai-divider" />
+      <section id="motivation">
+        <h2>Motivation</h2>
+        <p>Computer vision for high-stakes, real-world applications necessitates robust explanation and transparency to ensure trust, accountability, and ethical deployment. Celebrating its 5th Anniversary, the Explainable AI for Computer Vision (XAI4CV) workshop provides a premier forum for the entire spectrum of XAI research, from interpretable-by-design models to challenges in multimodal foundation models. The program includes invited talks, spotlight papers, a poster session, and a tutorial. XAI4CV accepts paper and demo submissions to define the future of trustworthy visual AI.</p>
+      </section>
+      <hr class="xai-divider" />
+
+      <section id="cfp">
+        <h2>Call for Papers and Demos</h2>
+        <p>
+          We welcome paper and demo submissions.
+        </p>
+        <ul class="xai-list">
+          <li><strong>Papers</strong> should describe high-quality, original research. Contributions can include novel XAI methods; applications of existing methods on new domains, models, and tasks; evaluation or analysis of existing methods; and practical toolboxes.</li>
+          <li><strong>Demos</strong> should consist of static or interactive presentations of XAI for CV models and tasks, accompanied by a description. Contributions can include visualizations, explanations, and explorations of novel XAI systems; novel visualizations, explanations, and explorations of existing XAI systems; studies of how different  visualizations, explanations, and explorations of XAI systems are perceived by people; among others.</li>
+        </ul>
+        
+        <h3>Topics</h3>
+        <p>We encourage submissions on topics including, but not limited to:</p>
+        <ul class="xai-list">
+          <li><strong>Interpretable-by-design computer vision (CV) models</strong>, including transparent CNNs, Vision Transformers (ViTs), and hybrid architectures designed for intrinsic interpretability.
+          <li><strong>Post-hoc explanation methods for CV models</strong>, such as saliency and activation mapping, feature visualization, and counterfactual reasoning.
+          <li><strong>Mechanistic interpretability</strong>, including reverse-engineering network behavior, analyzing layer-wise and concept-level representations, and understanding learned mechanisms.
+          <li><strong>Multimodal XAI</strong>, covering multimodal explanations of CV models (e.g., vision--language, vision--audio) and unimodal explanations of multimodal systems.
+          <li><strong>Evaluation and benchmarking of XAI methods</strong>, including metrics, robustness analysis, human evaluations, and comparative studies.
+          <li><strong>Datasets for XAI</strong>, supporting benchmarking, reproducibility, and human-centered evaluations.
+          <li><strong>Open-source frameworks and tools for XAI</strong>, enabling transparent and scalable research and deployment.
+          <li><strong>Human-centered XAI</strong>, including user studies, human-in-the-loop explanation systems, and the assessment of trust, usability, and decision support.
+          <li><strong>XAI applications across domains</strong>, including healthcare, autonomous systems, robotics, geosciences, and remote sensing.
+          <li><strong>Explainability in relation to broader constructs</strong>, such as fairness, transparency, interpretability, accountability, causality, and trust, and its implications for society.
+          <li><strong>Emerging directions</strong>, including counterfactual and causal explanations, interpretability of foundation and generative models, concept discovery, interactive and adaptive explanations, and evaluation of XAI in real-world deployments.
+        </ul>
+      </section>
+
+      <hr class="xai-divider" />
+
+      <section id="timeline">
+        <h2>Timeline</h2>
+        <h3>Proceedings Track</h3>
+        <ul class="xai-list">
+          <li>Submission Deadline: <strong>March 6, 2026 (Anywhere on Earth)</strong></li>
+          <li>Notification to Authors (Accept as Spotlight, Poster, or Reject): <strong>April 3, 2026 (Anywhere on Earth)</strong></li>
+          <li>Camera Ready Deadline: <strong>April 11, 2026 (Anywhere on Earth)</strong></li>
+        </ul>
+        <h3>Non-Proceedings Track</h3>
+        <ul class="xai-list">
+          <li>Submission Deadline (to be considered for Spotlights): <strong>March 6, 2026 (Anywhere on Earth)</strong></li>
+          <li>Notification to Authors (Accept as Spotlight, Poster, or Reject): <strong>April 3, 2026 (Anywhere on Earth)</strong></li>
+          <li>Rolling Submissions and Notifications (Accept as Poster or Reject): <strong>Until April 11, 2026 (Anywhere on Earth)</strong></li>
+        </ul>
+      </section>
+
+      <hr class="xai-divider" />
+
+      <section id="submission">
+        <h2>Submission Instructions</h2>
+        <ul class="xai-list">
+        <li>All submissions should be in the <b>anonymized</b> CVPR 2026 format available at <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines"><b>https://cvpr.thecvf.com/Conferences/2025/AuthorGuidelines</b></a>.</li>
+        <li>The page limits <b>do not</b> include references.</li>
+        <li>You may optionally upload supplementary material. Reviewers will be encouraged to look at it, but are not obligated to do so.</li>
+        <li>Submissions can be done at Microsoft CMT service (Coming soon).</li>
+        {/*<a target="_blank" rel="noopener" href="https://cmt3.research.microsoft.com/XAI4CV2026"><b>https://cmt3.research.microsoft.com/XAI4CV2026</b></a> (Coming soon)</li>*/}
+        </ul>
+      </section>
+
+      <hr class="xai-divider" />
+
+      <section id="attendance">
+        <h2>Attendance and Presentation</h2>
+        <ul class="xai-list">
+        <li><b>Posters</b>: All accepted submissions will be invited to participate in an <b>in-person</b> poster session at our workshop. Additionally, the authors will be asked to upload their posters which will be hosted on our webpage.</li>
+        <li><b>Spotlights</b>: We will pick several works among the submissions to be presented as spotlights. Presentations can either be <b>in-person</b> or <b>pre-recorded</b>.</li>
+        <li>Abiding by the <a target="_blank" rel="noopener" href="https://cvpr.thecvf.com/Conferences/2026/Pricing2"><b>CVPR guidelines</b></a>, all accepted papers <b>must be presented by one of the authors</b>.</li>
+        </ul>
+      </section>
+
+      <hr class="xai-divider" />
+
+      <section id="schedule">
+        <h2>Schedule</h2>
+        <p>TBA</p>
+        {/* <table class="xai-schedule-table">
+          <tbody>
+            <tr><td>13:00–13:10</td><td><strong>Opening</strong></td></tr>
+            <tr><td>13:10–13:35</td><td>Invited Talk – Tsui-Wei (Lily) Weng</td></tr>
+            <tr><td>13:35–14:00</td><td>Invited Talk – Mihaela van der Schaar</td></tr>
+            <tr><td>14:00–14:25</td><td>Invited Talk – Klaus-Robert Müller</td></tr>
+            <tr><td>14:25–14:50</td><td>Invited Talk – Chinasa T. Okolo</td></tr>
+            <tr><td>14:50–15:20</td><td>Spotlight Session 1</td></tr>
+            <tr><td>15:20–16:10</td><td>Poster Session</td></tr>
+            <tr><td>16:10–16:35</td><td>Invited Talk – Junfeng He</td></tr>
+            <tr><td>16:35–16:55</td><td>Spotlight Session 2</td></tr>
+            <tr><td>16:55–17:00</td><td>Closing</td></tr>
+          </tbody>
+        </table> */}
+      </section>
+
+      <hr class="xai-divider" />
+
+      <section id="speakers">
+        <h2>Invited Speakers</h2>
+        <p>TBA</p>
+        {/* <Speakers /> */}
+      </section>
+
+      <hr class="xai-divider" />
+
+      <section id="organizers">
+        <h2>Organizers</h2>
+        <People />
+      </section>
+
+      <hr class="xai-divider" />
+      <section id="pc">
+        <h2>Program Committee</h2>
+        <p>TBA</p>
+      </section>
+
+      <footer class="xai-divider">
+        <h2>Contact:</h2> 
+        <a href="mailto:xai4cv2026@googlegroups.com">xai4cv2026@googlegroups.com</a>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
+
+<style is:global>
+  /* 1. NUCLEAR RESET: Ensures full-bleed layout for the workshop page */
+  html, body.xai-workshop-reset {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    background-color: #ffffff !important;
+    font-family: "Open Sans", sans-serif !important;
+    color: #333 !important;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Force theme parent containers to be unconstrained */
+  main, .post, .container, #main-content, .content, .wrapper {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  /* 2. THE TOP BAR: Light Gray (#f8f8f8) with Bootstrap-style grays */
+  .navbar-xai {
+    background-color: #013763 !important;
+    border-bottom: 1px solid #e7e7e7;
+    min-height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-container {
+    max-width: 1140px; /* Standard wide-screen container width */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-brand {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff !important; /* Muted gray text */
+    text-decoration: none !important;
+    padding: 15px 0;
+  }
+
+  .nav-brand:hover {
+    color: #5e5e5e !important; /* Darkens on hover */
+  }
+
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links li {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px 12px;
+    transition: color 0.2s ease-in-out;
+  }
+
+  .nav-links a:hover {
+    color: #333 !important; /* High contrast hover color */
+  }
+
+  /* Mail Icon Visibility Fix matching original header */
+  .nav-mail-item i {
+    font-size: 25px !important;
+    color: #ffffff;
+    vertical-align: middle;
+  }
+  
+  .nav-mail-item a:hover i {
+    color: #333;
+  }
+
+  /* 3. MAIN COLUMN WIDE LAYOUT */
+  .xai-main-wrapper { width: 100%; }
+  .xai-inner-column {
+    max-width: 1140px; /* Aligns with nav width to decrease side margins */
+    margin: 0 auto;
+    padding: 100px 15px 50px 15px;
+  }
+
+  .xai-header { text-align: center; margin-bottom: 40px; }
+  .xai-header h1 {
+    font-weight: 600 !important;
+    font-size: 30px !important;
+    margin-bottom: 10px !important;
+    border: none !important;
+    color: #000 !important;
+  }
+
+  .venue { font-size: 24px; color: #999; font-weight: 300; }
+
+  h2 {
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    border-bottom: 1px solid #eee !important;
+    padding-bottom: 10px !important;
+    margin-top: 40px !important;
+    color: #333 !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    border-bottom: 1px solid #eee !important;
+    padding-bottom: 10px !important;
+    margin-top: 40px !important;
+    color: #333 !important;
+  }
+
+  p { font-size: 16px; line-height: 1.6; color: #333; }
+  
+  .xai-divider { border: 0; border-top: 1px solid #eee; margin: 40px 0; }
+
+  /* Schedule Table Styling */
+  .xai-schedule-table { width: 100%; border-collapse: collapse; }
+  .xai-schedule-table td { padding: 12px 0; border-top: 1px solid #f9f9f9; }
+
+  /* 4. ANCHOR LINK OFFSET FIX */
+  /* This ensures the title isn't hidden behind the fixed header when clicked */
+  section[id] {
+    scroll-margin-top: 60px; /* 50px (header height) + 10px breathing room */
+  }

@@ -1,0 +1,64 @@
+{
+  "people": [
+    {
+      "img_url": "/assets/images/workshops/xai4cv/miguel_angel_ft.jpg",
+      "name": "Miguel-Ángel Fernández-Torres",
+      "organization": "Universidad Carlos III de Madrid",
+      "website": "https://miguelangelft.github.io/"
+    },
+    {
+      "img_url": "/assets/images/workshops/xai4cv/yuhui_zhang.jpeg",
+      "name": "Yuhui Zhang",
+      "organization": "Stanford University",
+      "website": "https://cs.stanford.edu/~yuhuiz/"
+    },
+    {
+      "img_url": "/assets/images/workshops/xai4cv/jon_donnelly.jpeg",
+      "name": "Jon Donnelly",
+      "organization": "Duke University",
+      "website": "https://jdonnelly36.github.io/"
+    },
+    {
+      "img_url": "/assets/images/workshops/xai4cv/max_dreyer.jpg",
+      "name": "Maximilian Dreyer",
+      "organization": "Fraunhofer Heinrich Hertz Institute",
+      "website": "https://www.maxdreyer.de/"
+    },
+    {
+      "img_url": "/assets/images/workshops/xai4cv/marina_gavrilova.jpg",
+      "name": "Marina L. Gavrilova",
+      "organization": "University of Calgary",
+      "website": "https://profiles.ucalgary.ca/marina-gavrilova"
+    },
+    {
+      "img_url": "/assets/images/workshops/xai4cv/dahye_kim.jpg",
+      "name": "Dahye Kim",
+      "organization": "Boston University",
+      "website": "https://kim-dahye.github.io/"
+    },
+    {
+      "img_url": "/assets/images/workshops/xai4cv/indu_panigrahi.jpeg",
+      "name": "Indu Panigrahi",
+      "organization": "Princeton University",
+      "website": "https://xai4cv.github.io/"
+    },
+    {
+      "img_url": "/assets/images/workshops/xai4cv/sukrut_rao.png",
+      "name": "Sukrut Rao",
+      "organization": "Max Planck Institute for Informatics",
+      "website": "https://sukrutrao.github.io/"
+    },
+    {
+      "img_url": "/assets/images/workshops/xai4cv/avinab_saha.png",
+      "name": "Avinab Saha",
+      "organization": "UT Austin, Google Research",
+      "website": "https://avinabsaha.github.io/"
+    },
+    {
+      "img_url": "/assets/images/workshops/xai4cv/lenka_tetkova.jpg",
+      "name": "Lenka Tětková",
+      "organization": "Technical University of Denmark",
+      "website": "https://www.linkedin.com/in/lenka-tetkova"
+    }
+  ]
+}
