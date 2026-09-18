@@ -50,7 +50,10 @@ const talks = await getCollection('talks');
 const sortedTalks = sortByYear(talks);
 
 const publications = publicationsData.publications as PublicationType[];
-const highlightedPublications = publications.filter((pub) => pub.highlight);
+const highlightedPublications = publications
+  .filter((pub) => pub.section === 'journal')
+  .sort((a, b) => b.year - a.year)
+  .slice(0, 6);
 const publicationsByYear = groupByYear(publications);
 const journalCount = publications.filter(
   (pub) => pub.section === 'journal',
