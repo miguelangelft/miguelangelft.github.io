@@ -6,6 +6,8 @@ import { z } from 'astro:content';
 const SiteConfigSchema = z.object({
   sections: z.object({
     about: z.boolean(),
+    publications: z.boolean(),
+    projects: z.boolean(),
     workExperience: z.boolean(),
     talks: z.boolean(),
     writing: z.boolean(),
@@ -24,6 +26,8 @@ type SiteConfig = z.infer<typeof SiteConfigSchema>;
 const defaultConfig: SiteConfig = {
   sections: {
     about: true,
+    publications: true,
+    projects: true,
     workExperience: true,
     talks: true,
     writing: true,

@@ -8,12 +8,13 @@ type Props<Tag extends LayoutTag> = Polymorphic<{
   class?: string;
 }>;
 
-const { as: Tag = 'div', class: className } = Astro.props as Props<LayoutTag>;
+const { as: Tag = 'div', class: className, ...rest } =
+  Astro.props as Props<LayoutTag>;
 ---
 
-<Tag class:list={[
-  'max-w-[40rem] mx-auto px-4',
-  className,
-]}>
+<Tag
+  {...rest}
+  class:list={['max-w-7xl mx-auto px-4 sm:px-6 lg:px-8', className]}
+>
   <slot />
 </Tag>

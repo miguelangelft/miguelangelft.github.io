@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "title": "CLOSER: Closing the LOop — Attribution of complex climate disaStERs to climatic and to policy changes",
+      "program": "HORIZON-RIA",
+      "pi": "Paolo Scussolini (VU Amsterdam)",
+      "role": "PI at UC3M: Miguel-Ángel Fernández-Torres",
+      "from": 2026,
+      "to": 2030
+    },
+    {
+      "title": "SEED: Spatiotemporal Explainable Geospatial Artificial Intelligence for Extreme Events and Their Drivers",
+      "program": "UC3M Funding for Research Activities",
+      "pi": "Miguel-Ángel Fernández-Torres (UC3M)",
+      "role": "PI",
+      "from": 2025,
+      "to": 2026
+    },
+    {
+      "title": "IDEALCV-CM: Improved Deep Learning for Computer Vision",
+      "program": "Regional Research Project, Comunidad de Madrid (TEC-2024/COM-322)",
+      "pi": "Marcelo Bertalmío (CSIC)",
+      "role": "Researcher at UC3M",
+      "from": 2025,
+      "to": 2028
+    },
+    {
+      "title": "ThinkingEarth: Copernicus Foundation Models for a Thinking Earth",
+      "program": "HORIZON-EUSPA-2022-SPACE (101130544)",
+      "pi": "Ioannis Papoutsis (National Technical University of Athens)",
+      "role": "Researcher at UVEG",
+      "from": 2024,
+      "to": 2026
+    },
+    {
+      "title": "USMILE: Understanding and Modelling the Earth System with Machine Learning",
+      "program": "European Research Council (ERC), grant 855187",
+      "pi": "Veronika Eyring (German Aerospace Center)",
+      "role": "Researcher at UVEG",
+      "from": 2020,
+      "to": 2026
+    },
+    {
+      "title": "XAIDA: Extreme Events — Artificial Intelligence for Detection and Attribution",
+      "program": "HORIZON 2020 (101003469)",
+      "pi": "Robert Vautard (IPSL) and Dim Coumou (VU Amsterdam)",
+      "role": "Researcher at UVEG",
+      "from": 2021,
+      "to": 2025
+    },
+    {
+      "title": "Deep Extremes: AI4Science Multi-Hazards, Compounds and Cascade Events",
+      "program": "European Space Agency (ESA)",
+      "pi": "Miguel Mahecha (Universität Leipzig)",
+      "role": "Co-coordinator at UVEG",
+      "from": 2022,
+      "to": 2024
+    },
+    {
+      "title": "Saliencia y Atención: rePresentación, Interpretación y EmergeNcia",
+      "program": "National Research Project (TEC2017-84395-P)",
+      "pi": "Ascensión Gallardo Antolín and Carmen Peláez Moreno (UC3M)",
+      "role": "Team Member",
+      "from": 2018,
+      "to": 2020
+    },
+    {
+      "title": "Saliencia y Atención: Multimodalidad, Context-Awareness, Auto-Adaptación y Bioinspiración",
+      "program": "National Research Project",
+      "pi": "Ascensión Gallardo Antolín and Carmen Peláez Moreno (UC3M)",
+      "role": "Team Member",
+      "from": 2015,
+      "to": 2017
+    }
+  ]
+}

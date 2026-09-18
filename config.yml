@@ -1,6 +1,8 @@
 # Site Configuration - Control visibility of sections
 sections:
   about: true
+  publications: true
+  projects: true
   workExperience: true
   talks: true
   writing: true

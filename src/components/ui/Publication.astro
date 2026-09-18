@@ -1,0 +1,36 @@
+---
+import type { Publication } from '@/lib/types';
+import { highlightSelf } from '@/lib/utils';
+
+interface Props {
+  pub: Publication;
+}
+
+const { pub } = Astro.props;
+
+const Tag = pub.url ? 'a' : 'div';
+const linkProps = pub.url
+  ? { href: pub.url, target: '_blank', rel: 'noopener noreferrer' }
+  : {};
+---
+
+<li class="py-0.5">
+  <Tag
+    {...linkProps}
+    class:list={[
+      'flex flex-col gap-1 group',
+      pub.url && 'hover:text-headings',
+    ]}
+  >
+    <span class:list={['text-headings font-medium leading-snug', pub.url && 'group-hover:underline']}>
+      {pub.title}
+    </span>
+    <span
+      class="text-muted-foreground text-sm leading-snug"
+      set:html={highlightSelf(pub.authors)}
+    />
+    <span class="text-muted-foreground text-xs leading-snug">
+      {pub.venue}{pub.publisher ? ` · ${pub.publisher}` : ''}{pub.metrics ? ` · ${pub.metrics}` : ''}
+    </span>
+  </Tag>
+</li>

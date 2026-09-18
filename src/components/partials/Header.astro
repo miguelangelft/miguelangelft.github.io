@@ -5,9 +5,17 @@ import { getSiteConfig } from '@/lib/config';
 const pathname = Astro.url.pathname;
 
 const isHomePage = pathname === '/';
-const isWritingPage = pathname.startsWith('/writing');
 
 const config = getSiteConfig();
+
+const navItems = [
+  { href: '/#about', label: 'About' },
+  { href: '/#publications', label: 'Publications' },
+  { href: '/#projects', label: 'Projects' },
+  { href: '/#experience', label: 'Experience' },
+  { href: '/#speaking', label: 'Speaking' },
+  { href: '/#contact', label: 'Contact' },
+];
 ---
 {config.elements.header && (
   <Container
@@ -15,20 +23,30 @@ const config = getSiteConfig();
     class="w-full max-w-full flex justify-center items-center"
   >
     <div
-      class="w-max fixed top-0 mt-5 bg-muted-foreground/40 backdrop-blur-3xl border border-border rounded-full p-1"
+      class="max-w-[calc(100%-2rem)] fixed top-0 mt-5 bg-muted-foreground/40 backdrop-blur-3xl border border-border rounded-full p-1"
     >
-      <nav class="flex items-center">
+      <nav class="flex items-center overflow-x-auto no-scrollbar">
         <ul class="flex items-center gap-1">
           <li>
             <a
               href="/"
               class:list={[
-                'font-medium transition-colors block px-5 py-2',
+                'font-medium transition-colors block px-4 py-2 whitespace-nowrap',
                 'hover:text-headings',
                 isHomePage && 'text-headings bg-muted-foreground/40 rounded-full',
               ]}>Home</a
             >
           </li>
+          {navItems.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class="font-medium transition-colors block px-4 py-2 whitespace-nowrap hover:text-headings"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </div>

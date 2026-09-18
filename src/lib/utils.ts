@@ -15,6 +15,13 @@ export const formatDate = (date: Date) => {
 export const generateAbsoluteUrl = (path: string) =>
   DEFAULT_CONFIGURATION.baseUrl.concat(path);
 
+/*
+ * Wraps the author's own name in <strong> within an authors list string,
+ * so it stands out in publication/project author lists.
+ */
+export const highlightSelf = (authors: string) =>
+  authors.replace(/Miguel-Ángel Fernández-Torres/g, '<strong>$&</strong>');
+
 export const isDevelopment = () => import.meta.env.MODE === 'development';
 
 export const includeDraft = (draft: boolean) => {
@@ -59,4 +66,24 @@ export const sortByYear = <T extends { data: { year: number } }>(
   items: T[],
 ) => {
   return items.sort((a, b) => b.data.year - a.data.year);
+};
+
+/*
+ * Groups items with a `year` field into a Map of year -> items,
+ * sorted by year descending, items already sorted are left as-is within a year.
+ */
+export const groupByYear = <T extends { year: number }>(
+  items: T[],
+): Map<number, T[]> => {
+  const sorted = [...items].sort((a, b) => b.year - a.year);
+  const groups = new Map<number, T[]>();
+  for (const item of sorted) {
+    const group = groups.get(item.year);
+    if (group) {
+      group.push(item);
+    } else {
+      groups.set(item.year, [item]);
+    }
+  }
+  return groups;
 };

@@ -1,0 +1,29 @@
+---
+import type { Project } from '@/lib/types';
+import { highlightSelf } from '@/lib/utils';
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+---
+
+<li class="py-0.5">
+  <div class="flex gap-5">
+    <div class="relative min-w-28 shrink-0">
+      <span class="text-muted-foreground text-sm"
+        >{project.from} - {project.to ?? 'Present'}</span
+      >
+    </div>
+    <div class="flex flex-col gap-1.5">
+      <div class="flex flex-col">
+        <span class="text-headings font-medium leading-snug">{project.title}</span>
+        <span class="text-foreground text-sm">{project.program}</span>
+      </div>
+      <span class="text-muted-foreground text-sm">
+        PI: <span set:html={highlightSelf(project.pi)} /> · <span set:html={highlightSelf(project.role)} />
+      </span>
+    </div>
+  </div>
+</li>
