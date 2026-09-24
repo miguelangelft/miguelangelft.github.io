@@ -1,5 +1,6 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig, fontProviders } from 'astro/config';
+import { unified } from '@astrojs/markdown-remark';
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import mdx from '@astrojs/mdx';
@@ -11,7 +12,9 @@ export default defineConfig({
   site: 'https://miguelangelft.github.io/',
   base: '/',
   markdown: {
-    remarkPlugins: [remarkReadingTime],
+    processor: unified({
+      remarkPlugins: [remarkReadingTime],
+    }),
     shikiConfig: {
       theme: 'gruvbox-dark-medium',
     },
@@ -27,12 +30,12 @@ export default defineConfig({
       syntaxHighlight: 'shiki',
     }),
   ],
-  experimental: {
-    fonts: [
-      {
-        name: 'Inter',
-        cssVariable: '--font-inter',
-        provider: 'local',
+  fonts: [
+    {
+      name: 'Inter',
+      cssVariable: '--font-inter',
+      provider: fontProviders.local(),
+      options: {
         variants: [
           {
             src: ['./src/assets/fonts/Inter-Regular.woff2'],
@@ -61,10 +64,12 @@ export default defineConfig({
           },
         ],
       },
-      {
-        name: 'InterVariable',
-        cssVariable: '--font-inter-variable',
-        provider: 'local',
+    },
+    {
+      name: 'InterVariable',
+      cssVariable: '--font-inter-variable',
+      provider: fontProviders.local(),
+      options: {
         variants: [
           {
             src: ['./src/assets/fonts/InterVariable.woff2'],
@@ -73,6 +78,6 @@ export default defineConfig({
           },
         ],
       },
-    ],
-  },
+    },
+  ],
 });
