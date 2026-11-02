@@ -15,9 +15,9 @@ const image = await getImage({ src: avatar, format: 'avif' });
       loading="eager"
       src={image.src}
       alt={name}
-      width={108}
-      height={108}
-      class="rounded-full"
+      width={136}
+      height={136}
+      class="rounded-full w-24 h-24 sm:w-[136px] sm:h-[136px]"
     />
   </div>
   <div class="flex flex-col gap-2">
@@ -44,5 +44,6 @@ const image = await getImage({ src: avatar, format: 'avif' });
         ))}
       </div>
     )}
+    <slot />
   </div>
 </div>

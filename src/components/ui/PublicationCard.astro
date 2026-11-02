@@ -14,23 +14,23 @@ const { pub } = Astro.props;
   target={pub.url ? '_blank' : undefined}
   rel={pub.url ? 'noopener noreferrer' : undefined}
   class:list={[
-    'flex flex-col gap-3 rounded-xl border border-border p-4 transition-colors',
+    'flex flex-row items-start gap-4 rounded-xl border border-border p-4 h-full transition-colors',
     pub.url && 'hover:border-accent',
   ]}
 >
   {
     pub.image && (
-      <div class="aspect-video w-full overflow-hidden rounded-lg bg-muted-foreground/10">
+      <div class="w-20 h-20 sm:w-24 sm:h-24 shrink-0 overflow-hidden rounded-lg border border-border bg-white">
         <img
           src={pub.image}
           alt=""
           loading="lazy"
-          class="h-full w-full object-cover"
+          class="h-full w-full object-contain p-1"
         />
       </div>
     )
   }
-  <div class="flex flex-col gap-1.5">
+  <div class="flex flex-col gap-1.5 min-w-0">
     <span class="text-accent text-xs font-medium">{pub.venue} · {pub.year}</span>
     <span class="text-headings font-medium leading-snug">{pub.title}</span>
     <span

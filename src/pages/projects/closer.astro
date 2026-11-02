@@ -1,0 +1,169 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import SectionHeading from '@/components/ui/SectionHeading.astro';
+import { highlightSelf } from '@/lib/utils';
+import closerLogo from '@/assets/images/closer-logo-square.png';
+import closerTeam from '@/assets/images/closer-team.jpg';
+
+const seo = {
+  title: 'CLOSER — Attribution of complex climate disasters to climatic and policy changes',
+  description:
+    'CLOSER (Horizon Europe, 2026–2030) develops an integrated science of attribution, forecasting and impacts of climate-related disasters. UC3M contributes AI and remote sensing for a global database of hazards and impacts.',
+  type: 'website',
+  keywords:
+    'CLOSER, Horizon Europe, climate disasters, event attribution, impact forecasting, extreme events, AI, remote sensing, UC3M',
+  image: closerTeam,
+};
+
+const facts = [
+  { label: 'Funding', value: 'Horizon Europe Research and Innovation Action (grant 101293581)' },
+  { label: 'Duration', value: '48 months (September 2026 – August 2030)' },
+  { label: 'Coordinator', value: 'Paolo Scussolini, Vrije Universiteit Amsterdam' },
+  { label: 'PI at UC3M', value: 'Miguel-Ángel Fernández-Torres' },
+  { label: 'Consortium', value: '15 beneficiaries and 1 associated partner from 11 countries on 3 continents' },
+  { label: 'Case Applications', value: 'Six cases worldwide, from the Mediterranean and Northern Europe to the Caribbean, Senegal and India' },
+];
+
+const pillars = [
+  { code: 'A', title: 'Co-creating innovations', text: 'Living Labs where stakeholders and researchers co-create scientific innovations and decision-making frameworks.' },
+  { code: 'B', title: 'Advancing disaster data', text: 'A harmonised global database linking climate hazards with exposure, impacts and vulnerability.', uc3m: true },
+  { code: 'C', title: 'Modelling impacts', text: 'Process-based, complex-system and AI-based modelling of the systemic impacts of complex events.' },
+  { code: 'D', title: 'Attributing disasters', text: 'A protocol to attribute the impacts of past, ongoing and future events to climatic and non-climatic drivers.' },
+  { code: 'E', title: 'Understanding policies', text: 'Actionable understanding of how past and present policies shape disaster impacts and inequalities.' },
+];
+
+const outputs = [
+  { code: 'KOUT1', title: 'Knowledge Base of Climate-related Disasters', text: 'Harmonised global datasets of hazards, exposure, vulnerability, impacts and their attribution.' },
+  { code: 'KOUT2', title: 'Protocol for Expanded Attribution and Forecast', text: 'Methods to attribute and forecast the impacts of extreme and slow-onset events, including compound and cascading ones.' },
+  { code: 'KOUT3', title: 'Decision-Making Frameworks', text: 'Tools that help decision-makers assess policy options for climate-related disasters, including the fairness of their outcomes.' },
+];
+
+const uc3mLines = [
+  {
+    title: 'AI-based detection of climate hazards',
+    text: 'Deep learning and data-driven tools to map the spatial footprint and timing of single and compound extremes, such as heatwaves, droughts, floods and wildfires, at global scale.',
+  },
+  {
+    title: 'Impacts from remote sensing and multimodal data fusion',
+    text: 'Fusion of satellite observations with other heterogeneous sources to identify disaster impacts, especially in regions where impacts are under-reported.',
+  },
+  {
+    title: 'Trustworthy and explainable AI',
+    text: 'Transparent and interpretable AI methods, so that data-driven results can be traced and safely used to inform decisions.',
+  },
+];
+---
+
+<BaseLayout seo={seo}>
+  <Container as="section" class="py-6">
+    <a href="/#projects" class="text-muted-foreground text-sm hover:text-headings">← Back to research projects</a>
+  </Container>
+
+  <Container as="section" class="py-6">
+    <div class="flex flex-col sm:flex-row gap-8 items-start">
+      <Image
+        src={closerLogo}
+        alt="CLOSER project logo"
+        width={176}
+        height={176}
+        class="rounded-2xl border border-border shrink-0 w-36 h-36 sm:w-44 sm:h-44"
+        loading="eager"
+      />
+      <div class="flex flex-col gap-4">
+        <span class="text-accent text-sm font-medium">Research project · 2026–2030</span>
+        <h1 class="text-headings text-2xl sm:text-3xl font-semibold leading-tight">
+          CLOSER: Closing the Loop — Attribution of Complex Climate Disasters to Climatic and to Policy Changes
+        </h1>
+        <p class="text-foreground leading-relaxed">
+          Climate-related disasters rarely have a single cause: they emerge from the interplay of climatic and
+          non-climatic drivers, such as land-use change, water management, exposure and social vulnerability, and often
+          compound and cascade across systems. CLOSER aims to develop an <strong class="text-headings">integrated science of event attribution, forecast and impact</strong>, to support effective
+          policymaking that prevents imminent harm and reduces risk in the coming decades.
+        </p>
+      </div>
+    </div>
+  </Container>
+
+  <Container as="section" class="py-6">
+    <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 rounded-xl border border-border p-5">
+      {facts.map((f) => (
+        <div class="flex flex-col gap-0.5">
+          <dt class="text-muted-foreground text-xs">{f.label}</dt>
+          <dd class="text-headings text-sm" set:html={highlightSelf(f.value)} />
+        </div>
+      ))}
+    </dl>
+  </Container>
+
+  <Container as="section" id="team" class="py-6 scroll-mt-24">
+    <figure class="flex flex-col gap-2">
+      <Image
+        src={closerTeam}
+        alt="Group photo of the CLOSER consortium members outdoors"
+        widths={[800, 1200, 1600, 2400]}
+        sizes="(min-width: 1280px) 1216px, 100vw"
+        class="w-full h-auto rounded-xl border border-border"
+      />
+      <figcaption class="text-muted-foreground text-sm">The CLOSER consortium, September 2026.</figcaption>
+    </figure>
+  </Container>
+
+  <Container as="section" id="structure" class="py-6 scroll-mt-24">
+    <div class="flex flex-col gap-5">
+      <SectionHeading title="Project structure" subtitle="5 pillars · 3 key outputs" />
+      <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        {pillars.map((p) => (
+          <li class:list={['flex flex-col gap-1.5 rounded-xl border p-4', p.uc3m ? 'border-accent bg-accent-soft/40' : 'border-border']}>
+            <span class="text-accent text-xs font-medium">Pillar {p.code}{p.uc3m && ' · UC3M'}</span>
+            <span class="text-headings font-medium leading-snug">{p.title}</span>
+            <span class="text-foreground text-sm leading-relaxed">{p.text}</span>
+          </li>
+        ))}
+      </ul>
+      <ul class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {outputs.map((o) => (
+          <li class="flex flex-col gap-1.5 rounded-xl border border-border p-4">
+            <span class="text-accent text-xs font-medium">{o.code}</span>
+            <span class="text-headings font-medium leading-snug">{o.title}</span>
+            <span class="text-foreground text-sm leading-relaxed">{o.text}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </Container>
+
+  <Container as="section" id="uc3m" class="py-6 scroll-mt-24">
+    <div class="flex flex-col gap-5">
+      <SectionHeading title="Role of UC3M" />
+      <p class="text-foreground leading-relaxed">
+        UC3M contributes expertise in <strong class="text-headings">artificial intelligence, computer vision and data fusion</strong> to
+        Pillar B, helping to build the Knowledge Base of Climate-related Disasters (KOUT1). The expected research focuses on:
+      </p>
+      <ul class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {uc3mLines.map((l) => (
+          <li class="flex flex-col gap-1.5 rounded-xl border border-border p-4">
+            <span class="text-headings font-medium leading-snug">{l.title}</span>
+            <span class="text-foreground text-sm leading-relaxed">{l.text}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </Container>
+
+  <Container as="section" id="outputs" class="py-6 scroll-mt-24">
+    <div class="flex flex-col gap-5">
+      <SectionHeading title="Publications and activities" />
+      <p class="text-muted-foreground text-sm">The project started in September 2026. Results will be listed here as they become available.</p>
+    </div>
+  </Container>
+
+  <Container as="section" id="acknowledgment" class="py-6 scroll-mt-24">
+    <p class="text-muted-foreground text-sm leading-relaxed border-t border-border pt-6">
+      CLOSER is funded by the European Union under the Horizon Europe programme (grant agreement No. 101293581). Views
+      and opinions expressed are those of the author(s) only and do not necessarily reflect those of the European Union.
+      Neither the European Union nor the granting authority can be held responsible for them.
+    </p>
+  </Container>
+</BaseLayout>

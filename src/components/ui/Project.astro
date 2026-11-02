@@ -18,7 +18,13 @@ const { project } = Astro.props;
     </div>
     <div class="flex flex-col gap-1.5">
       <div class="flex flex-col">
-        <span class="text-headings font-medium leading-snug">{project.title}</span>
+        {project.url ? (
+          <a href={project.url} class="text-headings font-medium leading-snug hover:underline">
+            {project.title} <span class="text-accent text-sm whitespace-nowrap">Project page →</span>
+          </a>
+        ) : (
+          <span class="text-headings font-medium leading-snug">{project.title}</span>
+        )}
         <span class="text-foreground text-sm">{project.program}</span>
       </div>
       <span class="text-muted-foreground text-sm">

@@ -1,6 +1,6 @@
 export type Publication = {
   id: string;
-  section: 'journal' | 'conference';
+  section: 'journal' | 'conference' | 'preprint';
   highlight: boolean;
   title: string;
   authors: string;
@@ -17,6 +17,7 @@ export type Project = {
   program: string;
   pi: string;
   role: string;
+  url?: string;
   from: number;
   to?: number;
 };

@@ -1,6 +1,19 @@
 {
   "publications": [
     {
+      "id": "p1",
+      "section": "preprint",
+      "highlight": false,
+      "title": "Skillful Data-Driven Subseasonal Soil Moisture Forecasting: Prospects and Limits for Flash Drought Prediction",
+      "authors": "Noelia Otero, Aytaç Özer, Miguel-Ángel Fernández-Torres, Jackie Ma",
+      "year": 2026,
+      "venue": "arXiv preprint arXiv:2610.07060",
+      "publisher": "Preprint",
+      "metrics": null,
+      "url": "https://arxiv.org/abs/2610.07060",
+      "image": null
+    },
+    {
       "id": "j1",
       "section": "journal",
       "highlight": true,
@@ -323,6 +336,19 @@
       "publisher": "Poster · San Diego, CA, USA",
       "metrics": null,
       "url": "https://www.climatechange.ai/papers/neurips2025/22",
+      "image": null
+    },
+    {
+      "id": "c15",
+      "section": "conference",
+      "highlight": false,
+      "title": "Uso del modelo generativo GPT-4 para la elaboración de cuestionarios de evaluación en asignaturas de grado",
+      "authors": "Roberto Fernandez-Moran, Miguel-Ángel Fernández-Torres, Julia Amorós-López, et al., Luis Gómez-Chova",
+      "year": 2024,
+      "venue": "In-Red 2024 — X Congreso Nacional de Innovación Educativa y Docencia en Red",
+      "publisher": "Universitat Politècnica de València",
+      "metrics": null,
+      "url": "https://riunet.upv.es/entities/publication/e0accd74-9fa2-4eb9-900a-c637a6ee1a25",
       "image": null
     },
     {

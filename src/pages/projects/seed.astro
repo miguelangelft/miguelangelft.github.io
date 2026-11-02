@@ -1,0 +1,278 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Container from '@/components/Container.astro';
+import SectionHeading from '@/components/ui/SectionHeading.astro';
+import { highlightSelf } from '@/lib/utils';
+import seedLogo from '@/assets/images/seed-logo.png';
+
+const seo = {
+  title: 'SEED — Spatiotemporal Explainable Geospatial AI for Extreme Events',
+  description:
+    'SEED (UC3M, 2025–2026) develops explainable AI to identify the physical drivers of droughts and heatwaves learned by deep learning models for extreme event detection.',
+  type: 'website',
+  keywords:
+    'SEED, explainable AI, extreme events, droughts, heatwaves, geospatial AI, climate, UC3M',
+  image: seedLogo,
+};
+
+const facts = [
+  { label: 'Funding', value: 'UC3M Programa Propio de Investigación — Ayudas para jóvenes doctores/as (2025)' },
+  { label: 'Principal Investigator', value: 'Miguel-Ángel Fernández-Torres' },
+  { label: 'Host', value: 'Dept. of Signal Theory and Communications, Universidad Carlos III de Madrid' },
+  { label: 'Duration', value: '12 months (2025–2026)' },
+  // { label: 'Collaborators', value: 'Wojciech Samek, Jackie Ma, Noelia Otero, Monique Kuglitsch — AI Dept., Fraunhofer HHI, Berlin' },
+];
+
+const objectives = [
+  {
+    code: 'OBJ1',
+    title: 'Baseline model selection',
+    text: 'Select and validate state-of-the-art spatiotemporal deep learning models for the detection of droughts and heatwaves, providing a stable foundation for the explainability research.',
+  },
+  {
+    code: 'OBJ2',
+    title: 'Explainability',
+    text: 'Apply and adapt explainable AI (xAI) methods to pre-trained spatiotemporal models to identify which physical drivers, such as soil moisture deficits or temperature anomalies, underlie their detections.',
+  },
+  {
+    code: 'OBJ3',
+    title: 'Focused pilot case studies',
+    text: 'Demonstrate the explainability framework on regional and seasonal heatwave and drought events worldwide, showing how it supports scientific understanding and impact interpretation.',
+  },
+  {
+    code: 'TOBJ1',
+    title: 'Dissemination',
+    text: 'Share methods and findings through publications, conference presentations and open-source code, building a community across ML/CV and geoscience.',
+  },
+  {
+    code: 'TOBJ2',
+    title: 'Interdisciplinary training',
+    text: 'Foster collaborations that train a new generation of researchers bridging advanced ML/CV and critical geoscience challenges.',
+  },
+];
+
+/* Work plan hidden for now (see commented section below)
+const workPackages = [
+  { code: 'WP1', title: 'Data preparation and environment setup', months: 'M1–M3', start: 1, end: 3, detail: 'ERA5 reanalysis, vegetation indices (NDVI, fAPAR) and GDIS event labels; operational pre-trained detection models.' },
+  { code: 'WP2', title: 'Explainability', months: 'M4–M6', start: 4, end: 6, detail: 'Explainability analysis of pre-trained models; quantitative evaluation.' },
+  { code: 'WP3', title: 'Pilot case studies', months: 'M7–M10', start: 7, end: 10, detail: 'Regional/seasonal heatwave and drought events worldwide; linking model behavior to physical drivers.' },
+  { code: 'WP4', title: 'Communication and dissemination', months: 'M1–M12', start: 1, end: 12, detail: 'Project website, networking, presentations at international venues and journal manuscripts.' },
+];
+*/
+
+const publications = [
+  {
+    authors: 'Gustau Camps-Valls, Alberto Carrassi, Francisco de Melo Viríssimo, Kevin Debeire, Miguel-Ángel Fernández-Torres, Philipp Hess, et al., Veronika Eyring',
+    title: 'Bridging the weather and climate divide with artificial intelligence',
+    venue: 'Nature Communications, 17(1), 8578',
+    year: 2026,
+    type: 'Journal',
+    url: 'https://doi.org/10.1038/s41467-026-75787-y',
+  },
+  {
+    authors: 'Rodrigo Almeida, Noelia Otero, Miguel-Ángel Fernández-Torres, Jackie Ma',
+    title: 'On the Predictive Skill of Artificial Intelligence-based Weather Models for Extreme Events using Uncertainty Quantification',
+    venue: 'Artificial Intelligence for the Earth Systems, e250113',
+    year: 2026,
+    type: 'Journal',
+    url: 'https://doi.org/10.1175/AIES-D-25-0113.1',
+  },
+  {
+    authors: 'Mengxue Zhang, Kai Hendrik Cohrs, Miguel-Ángel Fernández-Torres, Esther Rodrigo-Bonet, Gustau Camps-Valls',
+    title: 'The Risks of Imperfect Knowledge: Reliability Trade-Offs in Physics-Aware Neural Networks for Climate Projections',
+    venue: 'International Conference on Artificial Neural Networks (ICANN), pp. 729–740, Springer',
+    year: 2026,
+    type: 'Conference',
+    url: null,
+  },
+  {
+    authors: 'Noelia Otero, Aytaç Özer, Miguel-Ángel Fernández-Torres, Jackie Ma',
+    title: 'Skillful Data-Driven Subseasonal Soil Moisture Forecasting: Prospects and Limits for Flash Drought Prediction',
+    venue: 'arXiv preprint arXiv:2610.07060',
+    year: 2026,
+    type: 'Preprint',
+    url: 'https://arxiv.org/abs/2610.07060',
+  },
+];
+
+const events = [
+  {
+    title: 'The 5th Explainable AI for Computer Vision (XAI4CV) Workshop',
+    venue: 'CVPR 2026 · Denver, CO, USA',
+    role: 'Workshop co-organizer',
+    url: 'https://xai4cv-workshop.github.io/xai4cv2026/',
+  },
+  {
+    title: 'OSA1.5 — Machine Learning in Weather and Climate',
+    venue: 'EMS Annual Meeting 2026 · Utrecht, Netherlands · 6–11 September 2026',
+    role: 'Session co-convener',
+    url: 'https://meetingorganizer.copernicus.org/EMS2026/session/58792',
+  },
+  {
+    title: 'Special Session: Multimodal Data Fusion and Visual Artificial Intelligence for Earth Observation',
+    venue: 'EUVIP 2026 · Luxembourg',
+    role: 'Special session co-organizer',
+    url: 'https://euvip2026.github.io/special-sessions/2/',
+  },
+];
+
+// const months = Array.from({ length: 12 }, (_, i) => i + 1);
+---
+
+<BaseLayout seo={seo}>
+  <Container as="section" class="py-6">
+    <a href="/#projects" class="text-muted-foreground text-sm hover:text-headings">← Back to research projects</a>
+  </Container>
+
+  <Container as="section" class="py-6">
+    <div class="flex flex-col sm:flex-row gap-8 items-start">
+      <Image
+        src={seedLogo}
+        alt="SEED project logo: a boot drawn as a network graph with a sprouting plant"
+        width={176}
+        height={176}
+        class="rounded-2xl border border-border shrink-0 w-36 h-36 sm:w-44 sm:h-44"
+        loading="eager"
+      />
+      <div class="flex flex-col gap-4">
+        <span class="text-accent text-sm font-medium">Research project · 2025–2026</span>
+        <h1 class="text-headings text-2xl sm:text-3xl font-semibold leading-tight">
+          SEED: Spatiotemporal Explainable Geospatial Artificial Intelligence for Extreme Events and Their Drivers
+        </h1>
+        <p class="text-foreground leading-relaxed">
+          SEED develops a spatiotemporal explainability framework to identify and understand the key drivers of
+          extreme events, in particular <strong class="text-headings">droughts</strong> and <strong class="text-headings">heatwaves</strong>, as
+          learned by existing deep learning models for extreme event detection, creating an interpretable foundation for
+          climate geo-intelligence.
+        </p>
+      </div>
+    </div>
+  </Container>
+
+  <Container as="section" class="py-6">
+    <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 rounded-xl border border-border p-5">
+      {facts.map((f) => (
+        <div class="flex flex-col gap-0.5">
+          <dt class="text-muted-foreground text-xs">{f.label}</dt>
+          <dd class="text-headings text-sm" set:html={highlightSelf(f.value)} />
+        </div>
+      ))}
+    </dl>
+  </Container>
+
+  <Container as="section" id="motivation" class="py-6 scroll-mt-24">
+    <div class="flex flex-col gap-5">
+      <SectionHeading title="Motivation" />
+      <div class="prose dark:prose-invert max-w-none">
+        <p>
+          Global warming is intensifying extreme weather and climate events, increasing the frequency and severity of
+          heatwaves and droughts. When they co-occur, these compound events interact nonlinearly to amplify impacts such as
+          crop failure, wildfires and water scarcity. Yet extremes still lack universal definitions and consistent
+          characterizations across their spatial, temporal and causal dimensions.
+        </p>
+        <p>
+          Machine learning and computer vision models can detect and localize extremes, but they act as black boxes, which
+          limits both their interpretability and the scientific insight they provide. SEED addresses this gap with
+          explainable AI (xAI) tailored to the spatiotemporal nature of Earth system data, aiming to uncover what these
+          models learn about the physical drivers of extremes and how they manifest over space and time. Grounding model
+          explanations in physical variables aims to reveal data-driven, physically grounded definitions of extremes
+          based on their drivers.
+        </p>
+      </div>
+    </div>
+  </Container>
+
+  <Container as="section" id="objectives" class="py-6 scroll-mt-24">
+    <div class="flex flex-col gap-5">
+      <SectionHeading title="Objectives" />
+      <ul class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {objectives.map((o) => (
+          <li class:list={['flex flex-col gap-1.5 rounded-xl border border-border p-4', o.code.startsWith('T') && 'bg-accent-soft/40']}>
+            <span class="text-accent text-xs font-medium">{o.code}</span>
+            <span class="text-headings font-medium leading-snug">{o.title}</span>
+            <span class="text-foreground text-sm leading-relaxed">{o.text}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </Container>
+
+  {/* Work plan section hidden for now
+  <Container as="section" id="workplan" class="py-6 scroll-mt-24">
+    <div class="flex flex-col gap-5">
+      <SectionHeading title="Work plan" subtitle="12 months" />
+      <div class="flex flex-col gap-4">
+        {workPackages.map((wp) => (
+          <div class="flex flex-col gap-2">
+            <div class="flex items-baseline justify-between gap-4 flex-wrap">
+              <span class="text-headings font-medium text-sm">
+                <span class="text-accent">{wp.code}</span> · {wp.title}
+              </span>
+              <span class="text-muted-foreground text-xs">{wp.months}</span>
+            </div>
+            <div class="grid grid-cols-12 gap-1" aria-hidden="true">
+              {months.map((m) => (
+                <span class:list={['h-2 rounded-full', m >= wp.start && m <= wp.end ? 'bg-accent' : 'bg-border/60']} />
+              ))}
+            </div>
+            <span class="text-muted-foreground text-sm">{wp.detail}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </Container>
+
+  */}
+
+  <Container as="section" id="publications" class="py-6 scroll-mt-24">
+    <div class="flex flex-col gap-5">
+      <SectionHeading title="Publications" subtitle={`${publications.length} outputs`} />
+      <ul class="flex flex-col gap-6">
+        {publications.map((p) => (
+          <li class="flex flex-col gap-1">
+            <span class="text-accent text-xs font-medium">{p.type} · {p.year}</span>
+            {p.url ? (
+              <a href={p.url} target="_blank" rel="noopener noreferrer" class="text-headings font-medium leading-snug hover:underline">
+                {p.title}
+              </a>
+            ) : (
+              <span class="text-headings font-medium leading-snug">{p.title}</span>
+            )}
+            <span class="text-muted-foreground text-sm" set:html={highlightSelf(p.authors)} />
+            <span class="text-foreground text-sm italic">{p.venue}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </Container>
+
+  <Container as="section" id="events" class="py-6 scroll-mt-24">
+    <div class="flex flex-col gap-5">
+      <SectionHeading title="Organized workshops and sessions" />
+      <ul class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {events.map((e) => (
+          <li>
+            <a
+              href={e.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex flex-col gap-1.5 rounded-xl border border-border p-4 h-full transition-colors hover:border-accent"
+            >
+              <span class="text-accent text-xs font-medium">{e.role}</span>
+              <span class="text-headings font-medium leading-snug">{e.title}</span>
+              <span class="text-muted-foreground text-sm">{e.venue}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </Container>
+
+  <Container as="section" id="acknowledgment" class="py-6 scroll-mt-24">
+    <p class="text-muted-foreground text-sm leading-relaxed border-t border-border pt-6">
+      This project is funded by Universidad Carlos III de Madrid through the 2025 call for research activity grants for
+      young doctors (Programa Propio de Investigación y Transferencia).
+    </p>
+  </Container>
+</BaseLayout>

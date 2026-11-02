@@ -10,6 +10,9 @@ import Talk from '@/components/ui/Talk.astro';
 import Publication from '@/components/ui/Publication.astro';
 import PublicationCard from '@/components/ui/PublicationCard.astro';
 import Project from '@/components/ui/Project.astro';
+import FeaturedProject from '@/components/ui/FeaturedProject.astro';
+import seedLogo from '@/assets/images/seed-logo.png';
+import closerLogo from '@/assets/images/closer-logo-square.png';
 import ContactIcon from '@/components/ui/ContactIcon.astro';
 import { sortByDateRange, sortByYear, groupByYear } from '@/lib/utils';
 import { getSiteConfig } from '@/lib/config';
@@ -72,7 +75,26 @@ const cvUrl = '/cv/miguel-angel-fernandez-torres-cv.pdf';
 <BaseLayout seo={entry.data.seo}>
   {config.elements.avatar && (
     <Container as="section" class="py-6">
-      <Author {...DEFAULT_CONFIGURATION.author} />
+      <Author {...DEFAULT_CONFIGURATION.author}>
+          {config.sections.socialLinks && links.length > 0 && (
+            <ul id="contact" class="flex flex-wrap items-center gap-1.5 pt-1 scroll-mt-24" aria-label="Contact and social profiles">
+              {links.map((link) => (
+                <li>
+                  <a
+                    href={link.data.url}
+                    target={link.data.url.startsWith('mailto:') ? undefined : '_blank'}
+                    rel="noopener noreferrer"
+                    title={`${link.data.label}: ${link.data.name}`}
+                    aria-label={link.data.label}
+                    class="flex items-center justify-center w-9 h-9 rounded-full border border-border text-foreground transition-colors hover:border-accent hover:text-accent"
+                  >
+                    <ContactIcon label={link.data.label} size={18} />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
+      </Author>
     </Container>
   )}
 
@@ -109,7 +131,7 @@ const cvUrl = '/cv/miguel-angel-fernandez-torres-cv.pdf';
           />
 
           {highlightedPublications.length > 0 && (
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
               {highlightedPublications.map((pub) => (
                 <PublicationCard pub={pub} />
               ))}
@@ -143,6 +165,24 @@ const cvUrl = '/cv/miguel-angel-fernandez-torres-cv.pdf';
       <Container as="section" id="projects" class="py-6 scroll-mt-24">
         <div class="flex flex-col gap-5">
           <SectionHeading title="Research Projects" />
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+              <FeaturedProject
+                href="/projects/closer"
+                logo={closerLogo}
+                logoAlt="CLOSER project logo"
+                label="Featured project · Horizon Europe · PI at UC3M · 2026–2030"
+                title="CLOSER: Closing the Loop — Attribution of Complex Climate Disasters to Climatic and to Policy Changes"
+                summary="An integrated science of attribution, forecasting and impacts of climate-related disasters. UC3M contributes AI and remote sensing for a global database of hazards and impacts."
+              />
+              <FeaturedProject
+                href="/projects/seed"
+                logo={seedLogo}
+                logoAlt="SEED project logo"
+                label="Featured project · UC3M · PI · 2025–2026"
+                title="SEED: Spatiotemporal Explainable Geospatial Artificial Intelligence for Extreme Events and Their Drivers"
+                summary="Explainable AI to uncover the physical drivers of droughts and heatwaves learned by deep learning models. Funded by Universidad Carlos III de Madrid."
+              />
+            </div>
           <ul class="flex flex-col gap-8">
             {projects.map((project) => (
               <Project project={project} />
@@ -174,37 +214,6 @@ const cvUrl = '/cv/miguel-angel-fernandez-torres-cv.pdf';
           <ul class="flex flex-col gap-8">
             {sortedTalks.map((talk) => (
               <Talk entry={talk} />
-            ))}
-          </ul>
-        </div>
-      </Container>
-    )
-  }
-  {
-    config.sections.socialLinks && links.length > 0 && (
-      <Container as="section" id="contact" class="py-8 scroll-mt-24">
-        <div class="flex flex-col gap-5">
-          <SectionHeading title="Contact" />
-          <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {links.map((link) => (
-              <li>
-                <a
-                  href={link.data.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="flex flex-col items-start gap-2 rounded-xl border border-border p-4 h-full transition-colors hover:border-accent"
-                >
-                  <span class="text-accent">
-                    <ContactIcon label={link.data.label} size={20} />
-                  </span>
-                  <span class="text-muted-foreground text-xs">
-                    {link.data.label}
-                  </span>
-                  <span class="text-headings font-medium text-sm break-all">
-                    {link.data.name}
-                  </span>
-                </a>
-              </li>
             ))}
           </ul>
         </div>
