@@ -9,10 +9,10 @@ import seedLogo from '@/assets/images/seed-logo.png';
 const seo = {
   title: 'SEED — Spatiotemporal Explainable Geospatial AI for Extreme Events',
   description:
-    'SEED (UC3M, 2025–2026) develops explainable AI to identify the physical drivers of droughts and heatwaves learned by deep learning models for extreme event detection.',
+    'SEED (UC3M, 2025–2026) develops concept-based explainable AI to identify the physical drivers of droughts and heatwaves learned by deep learning models for extreme event detection.',
   type: 'website',
   keywords:
-    'SEED, explainable AI, extreme events, droughts, heatwaves, geospatial AI, climate, UC3M',
+    'SEED, explainable AI, concept-based explanations, extreme events, droughts, heatwaves, geospatial AI, climate, UC3M',
   image: seedLogo,
 };
 
@@ -21,7 +21,7 @@ const facts = [
   { label: 'Principal Investigator', value: 'Miguel-Ángel Fernández-Torres' },
   { label: 'Host', value: 'Dept. of Signal Theory and Communications, Universidad Carlos III de Madrid' },
   { label: 'Duration', value: '12 months (2025–2026)' },
-  // { label: 'Collaborators', value: 'Wojciech Samek, Jackie Ma, Noelia Otero, Monique Kuglitsch — AI Dept., Fraunhofer HHI, Berlin' },
+  { label: 'Collaborators', value: 'Wojciech Samek, Jackie Ma, Noelia Otero, Monique Kuglitsch — AI Dept., Fraunhofer HHI, Berlin' },
 ];
 
 const objectives = [
@@ -32,13 +32,13 @@ const objectives = [
   },
   {
     code: 'OBJ2',
-    title: 'Explainability',
-    text: 'Apply and adapt explainable AI (xAI) methods to pre-trained spatiotemporal models to identify which physical drivers, such as soil moisture deficits or temperature anomalies, underlie their detections.',
+    title: 'Concept extraction and explainability',
+    text: 'Apply concept-based xAI (e.g., Concept Relevance Propagation) to extract latent spatiotemporal concepts from pre-trained models that represent physical drivers such as soil moisture deficits or temperature anomalies.',
   },
   {
     code: 'OBJ3',
     title: 'Focused pilot case studies',
-    text: 'Demonstrate the explainability framework on regional and seasonal heatwave and drought events worldwide, showing how it supports scientific understanding and impact interpretation.',
+    text: 'Demonstrate the discovered concepts on regional and seasonal heatwave and drought events in Europe, showing how concept analysis supports scientific understanding and impact interpretation.',
   },
   {
     code: 'TOBJ1',
@@ -52,14 +52,12 @@ const objectives = [
   },
 ];
 
-/* Work plan hidden for now (see commented section below)
 const workPackages = [
   { code: 'WP1', title: 'Data preparation and environment setup', months: 'M1–M3', start: 1, end: 3, detail: 'ERA5 reanalysis, vegetation indices (NDVI, fAPAR) and GDIS event labels; operational pre-trained detection models.' },
-  { code: 'WP2', title: 'Explainability', months: 'M4–M6', start: 4, end: 6, detail: 'Explainability analysis of pre-trained models; quantitative evaluation.' },
-  { code: 'WP3', title: 'Pilot case studies', months: 'M7–M10', start: 7, end: 10, detail: 'Regional/seasonal heatwave and drought events worldwide; linking model behavior to physical drivers.' },
+  { code: 'WP2', title: 'Concept extraction and explainability', months: 'M4–M6', start: 4, end: 6, detail: 'Concept-based post-hoc xAI on latent representations; spatiotemporal concept maps; robustness and alignment metrics.' },
+  { code: 'WP3', title: 'Pilot case studies', months: 'M7–M10', start: 7, end: 10, detail: 'European regional/seasonal heatwave and drought events; linking concepts to physical drivers.' },
   { code: 'WP4', title: 'Communication and dissemination', months: 'M1–M12', start: 1, end: 12, detail: 'Project website, networking, presentations at international venues and journal manuscripts.' },
 ];
-*/
 
 const publications = [
   {
@@ -117,7 +115,7 @@ const events = [
   },
 ];
 
-// const months = Array.from({ length: 12 }, (_, i) => i + 1);
+const months = Array.from({ length: 12 }, (_, i) => i + 1);
 ---
 
 <BaseLayout seo={seo}>
@@ -141,8 +139,8 @@ const events = [
           SEED: Spatiotemporal Explainable Geospatial Artificial Intelligence for Extreme Events and Their Drivers
         </h1>
         <p class="text-foreground leading-relaxed">
-          SEED develops a spatiotemporal explainability framework to identify and understand the key drivers of
-          extreme events, in particular <strong class="text-headings">droughts</strong> and <strong class="text-headings">heatwaves</strong>, as
+          SEED develops a spatiotemporal, concept-based explainability framework to identify and understand the key
+          drivers of <strong class="text-headings">droughts</strong> and <strong class="text-headings">heatwaves</strong>
           learned by existing deep learning models for extreme event detection, creating an interpretable foundation for
           climate geo-intelligence.
         </p>
@@ -173,11 +171,11 @@ const events = [
         </p>
         <p>
           Machine learning and computer vision models can detect and localize extremes, but they act as black boxes, which
-          limits both their interpretability and the scientific insight they provide. SEED addresses this gap with
-          explainable AI (xAI) tailored to the spatiotemporal nature of Earth system data, aiming to uncover what these
-          models learn about the physical drivers of extremes and how they manifest over space and time. Grounding model
-          explanations in physical variables aims to reveal data-driven, physically grounded definitions of extremes
-          based on their drivers.
+          limits both their interpretability and the scientific insight they provide. SEED addresses this gap by adapting
+          <strong>concept-based explainable AI</strong>, so far applied mostly to static images, to dynamically evolving
+          spatiotemporal concepts such as <em>"persistent soil moisture deficit over several weeks"</em> or
+          <em>"consecutive days of anomalously high surface temperature"</em>. Linking these latent concepts to physical
+          variables aims to reveal data-driven, physically grounded definitions of extremes based on their drivers.
         </p>
       </div>
     </div>
@@ -198,7 +196,6 @@ const events = [
     </div>
   </Container>
 
-  {/* Work plan section hidden for now
   <Container as="section" id="workplan" class="py-6 scroll-mt-24">
     <div class="flex flex-col gap-5">
       <SectionHeading title="Work plan" subtitle="12 months" />
@@ -222,8 +219,6 @@ const events = [
       </div>
     </div>
   </Container>
-
-  */}
 
   <Container as="section" id="publications" class="py-6 scroll-mt-24">
     <div class="flex flex-col gap-5">
